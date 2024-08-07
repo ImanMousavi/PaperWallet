@@ -72,7 +72,7 @@ def replace_content_in_file(file_path, replacements):
 # Define replacements for content modification
 replacements = {
     '##ADDRESS_BOX': account.address,
-    '##MNEMONIC_L1': '  '.join(part1),
+    '##MNEMONIC_L1': ' '.join(part1),
     '##MNEMONIC_L2': ' '.join(part2),
     '##MNEMONIC_L3': ' '.join(part3),
     '##MNEMONIC_L4': ' '.join(part4)
