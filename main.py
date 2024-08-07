@@ -1,9 +1,10 @@
-# pip install cairosvg
+# pip install cairosvg PyPDF2
 # brew install cairo or sudo apt-get install libcairo2 libcairo2-dev
 
 import os
 
 import cairosvg
+from PyPDF2 import PdfReader, PdfWriter
 from eth_account import Account
 from web3 import Web3
 
@@ -39,7 +40,19 @@ modified_content = modified_content.replace('##MNEMONIC_L4', ' '.join(part4))
 with open('file.svg', 'w') as file:
     file.write(modified_content)
 cairosvg.svg2pdf(url=svg_file_path, write_to=pdf_file_path, unsafe=True)
+
+reader = PdfReader(pdf_file_path)
+writer = PdfWriter()
+
+for page in reader.pages:
+    writer.add_page(page)
+password = "your_password"
+writer.encrypt(password)
+
+with open('output.pdf', 'wb') as f:
+    writer.write(f)
 os.remove(svg_file_path)
+os.remove(pdf_file_path)
 
 
 print(f"PDF file has been generated and saved to {pdf_file_path}")
