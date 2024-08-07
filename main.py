@@ -3,7 +3,7 @@
 
 import os
 import string
-from random import random, randint, choice
+from random import randint, choice
 
 import cairosvg
 from PyPDF2 import PdfReader, PdfWriter
