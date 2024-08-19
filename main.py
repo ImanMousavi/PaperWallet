@@ -42,6 +42,7 @@ web3.eth.account.enable_unaudited_hdwallet_features()
 # Create an account with a mnemonic
 account, mnemonic = Account.create_with_mnemonic(num_words=24)
 
+print(account.key.hex())
 # Define file paths
 template_file_path = 'template.svg'
 svg_file_path = './file.svg'
