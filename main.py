@@ -8,7 +8,10 @@ from random import randint, choice
 import cairosvg
 from PyPDF2 import PdfReader, PdfWriter
 from eth_account import Account
+from qrcode.main import QRCode
 from web3 import Web3
+import base64
+from io import BytesIO
 
 
 def replace_content_in_file(file_path, replacements):
@@ -19,6 +22,18 @@ def replace_content_in_file(file_path, replacements):
         content = content.replace(key, value)
 
     return content
+
+
+def text_to_qr_base64(text):
+    qr = QRCode(version=1, box_size=10, border=5)
+    qr.add_data(text)
+    qr.make(fit=True)
+    img = qr.make_image(fill_color="black", back_color="white")
+
+    buffered = BytesIO()
+    img.save(buffered)
+    img_str = base64.b64encode(buffered.getvalue()).decode()
+    return img_str
 
 
 def password_generator(param):
@@ -51,6 +66,9 @@ def main(address_not:str,note:str ):
 
     # Create an account with a mnemonic
     account, mnemonic = Account.create_with_mnemonic(num_words=24)
+
+    qr_code_base64 = text_to_qr_base64(mnemonic)
+
     print(f"***  Private key  {account.key.hex()}")
 
     # Define file paths
@@ -58,26 +76,37 @@ def main(address_not:str,note:str ):
     svg_file_path = './file.svg'
     pdf_file_path = './file.pdf'
 
-    # Split mnemonic into indexed words
     words = mnemonic.split()
-    indexed_words = [f"{i + 1}.{word}" for i, word in enumerate(words)]
 
-    # Divide indexed words into parts
-    n = len(indexed_words)
-    part1 = indexed_words[:n // 4]
-    part2 = indexed_words[n // 4:n // 2]
-    part3 = indexed_words[n // 2:3 * n // 4]
-    part4 = indexed_words[3 * n // 4:]
-
-    # Define replacements for content modification
     replacements = {
         '##ADDRESS_NOT': address_not,
         '##NOTE_BOX': note,
         '##ADDRESS_BOX': account.address,
-        '##MNEMONIC_L1': ' '.join(part1),
-        '##MNEMONIC_L2': ' '.join(part2),
-        '##MNEMONIC_L3': ' '.join(part3),
-        '##MNEMONIC_L4': ' '.join(part4)
+        '#T1#' : words[0],
+        '#T2#' : words[1],
+        '#T3#' : words[2],
+        '#T4#' : words[3],
+        '#T5#' : words[4],
+        '#T6#' : words[5],
+        '#T7#' : words[6],
+        '#T8#' : words[7],
+        '#T9#' : words[8],
+        '#T10#' : words[9],
+        '#T11#' : words[10],
+        '#T12#' : words[11],
+        '#T13#' : words[12],
+        '#T14#' : words[13],
+        '#T15#' : words[14],
+        '#T16#' : words[15],
+        '#T17#' : words[16],
+        '#T18#' : words[17],
+        '#T19#' : words[18],
+        '#T20#' : words[19],
+        '#T21#' : words[20],
+        '#T22#' : words[21],
+        '#T23#' : words[22],
+        '#T24#' : words[23],
+        '#qr_code_base64#' :qr_code_base64
     }
 
     # Replace content in the SVG file
