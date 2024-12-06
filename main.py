@@ -1,8 +1,10 @@
-# pip install cairosvg PyPDF2
-# brew install cairo or sudo apt-get install libcairo2 libcairo2-dev
+# pip install cairocffi pycairo PyPDF2
+# brew install cairo  && brew install pango or sudo apt-get install libcairo2 libcairo2-dev
 
 import os
+import random
 import string
+from pprint import pprint
 from random import randint, choice
 
 import cairosvg
@@ -58,14 +60,21 @@ def password_generator(param):
             _password += choice(pool)
 
     return _password
+def generate_security_suffix(length=12):
+    characters = string.ascii_letters + string.digits
+    return ''.join(random.choice(characters) for _ in range(length))
 
-def main(address_not:str,note:str ):
+def main(address_not:str,note:str , use_passphrase:bool):
     # Create a Web3 instance
     web3 = Web3()
     web3.eth.account.enable_unaudited_hdwallet_features()
 
+    security_suffix = ''
+    if use_passphrase:
+        security_suffix = generate_security_suffix(3)
+
     # Create an account with a mnemonic
-    account, mnemonic = Account.create_with_mnemonic(num_words=24)
+    account, mnemonic = Account.create_with_mnemonic(passphrase=security_suffix,num_words=24)
 
     qr_code_base64 = text_to_qr_base64(mnemonic)
 
@@ -130,12 +139,15 @@ def main(address_not:str,note:str ):
         writer.write(f)
     os.remove(svg_file_path)
     # os.remove(pdf_file_path)
-
-    print(f"PDF file has been generated and saved to {pdf_file_path} with  password: {password}")
+    pprint(f"Passphrase: {security_suffix}")
+    pprint(f"PDF file has been generated and saved to {pdf_file_path} with  password: {password}")
 
 
 if __name__ == '__main__':
     address_not = input("Enter the address_not: ")
     note = input("Enter the note: ")
+    passphrase_input = input("Use BIP39 Passphrase? (yes/no): ").strip().lower()
+    use_passphrase = (passphrase_input == 'yes') or (passphrase_input == 'y')
 
-    main(address_not, note)
+
+    main(address_not, note, use_passphrase)
