@@ -83,7 +83,7 @@ def main(address_not:str,note:str , use_passphrase:bool):
     # Define file paths
     template_file_path = 'template.svg'
     svg_file_path = './file.svg'
-    pdf_file_path = './file.pdf'
+    pdf_file_path = f'./f{note.lower()}.pdf'
 
     words = mnemonic.split()
 
@@ -131,16 +131,21 @@ def main(address_not:str,note:str , use_passphrase:bool):
 
     for page in reader.pages:
         writer.add_page(page)
+    password = ''
+    if not use_passphrase:
+        password = password_generator(8)
+        writer.encrypt(password)
 
-    password = password_generator(8)
-    writer.encrypt(password)
-
-    with open('output.pdf', 'wb') as f:
-        writer.write(f)
+        with open('output.pdf', 'wb') as f:
+            writer.write(f)
     os.remove(svg_file_path)
     # os.remove(pdf_file_path)
-    pprint(f"Passphrase: {security_suffix}")
-    pprint(f"PDF file has been generated and saved to {pdf_file_path} with  password: {password}")
+    if  use_passphrase:
+        pprint(f"Passphrase: {security_suffix}")
+    if len(password):
+        pprint(f"PDF file has been generated and saved to {pdf_file_path} with  password: {password}")
+    else:
+        pprint(f"PDF file has been generated and saved to {pdf_file_path}")
 
 
 if __name__ == '__main__':
