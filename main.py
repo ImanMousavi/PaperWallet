@@ -83,7 +83,10 @@ def main(address_not:str,note:str , use_passphrase:bool):
     # Define file paths
     template_file_path = 'template.svg'
     svg_file_path = './file.svg'
-    pdf_file_path = f'./f{note.lower()}.pdf'
+
+    name = note.replace(' ', '_').lower().replace('!', '').replace('?', '').replace(',', '').replace('.', '')
+    pdf_file_path = './main_'+ name+ '.pdf'
+    encrypt_pdf_file = 'encrypt_' + name+ '.pdf'
 
     words = mnemonic.split()
 
@@ -131,26 +134,20 @@ def main(address_not:str,note:str , use_passphrase:bool):
 
     for page in reader.pages:
         writer.add_page(page)
-    password = ''
-    if not use_passphrase:
-        password = password_generator(8)
-        writer.encrypt(password)
 
-        with open('output.pdf', 'wb') as f:
-            writer.write(f)
+    password = password_generator(8)
+    writer.encrypt(password)
+
+    with open(encrypt_pdf_file, 'wb') as f:
+        writer.write(f)
     os.remove(svg_file_path)
-    # os.remove(pdf_file_path)
-    if  use_passphrase:
-        pprint(f"Passphrase: {security_suffix}")
-    if len(password):
-        pprint(f"PDF file has been generated and saved to {pdf_file_path} with  password: {password}")
-    else:
-        pprint(f"PDF file has been generated and saved to {pdf_file_path}")
+    pprint(f"Passphrase: {security_suffix}")
+    pprint(f"PDF file has been generated and saved to {pdf_file_path} with  password: {password}")
 
 
 if __name__ == '__main__':
-    address_not = input("Enter the address_not: ")
     note = input("Enter the note: ")
+    address_not = input("Enter the address_not: ")
     passphrase_input = input("Use BIP39 Passphrase? (yes/no): ").strip().lower()
     use_passphrase = (passphrase_input == 'yes') or (passphrase_input == 'y')
 
