@@ -86,8 +86,6 @@ def main(address_not:str,note:str , use_passphrase:bool):
 
     name = note.replace(' ', '_').lower().replace('!', '').replace('?', '').replace(',', '').replace('.', '')
     pdf_file_path = f"./{address_not}_"+ name+ '.pdf'
-    if not use_passphrase:
-        encrypt_pdf_file = 'encrypt_' + name+ '.pdf'
 
     words = mnemonic.split()
 
@@ -136,14 +134,17 @@ def main(address_not:str,note:str , use_passphrase:bool):
     for page in reader.pages:
         writer.add_page(page)
 
-    password = password_generator(8)
-    writer.encrypt(password)
 
-    with open(encrypt_pdf_file, 'wb') as f:
-        writer.write(f)
+    if not use_passphrase:
+        encrypt_pdf_file = 'encrypt_' + name+ '.pdf'
+        password = password_generator(8)
+        writer.encrypt(password)
+
+        with open(encrypt_pdf_file, 'wb') as f:
+            writer.write(f)
+        pprint(f"PDF file has been generated and saved to {pdf_file_path} with  password: {password}")
     os.remove(svg_file_path)
     pprint(f"Passphrase: {security_suffix}")
-    pprint(f"PDF file has been generated and saved to {pdf_file_path} with  password: {password}")
 
 
 if __name__ == '__main__':
