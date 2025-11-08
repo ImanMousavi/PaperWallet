@@ -85,8 +85,9 @@ def main(address_not:str,note:str , use_passphrase:bool):
     svg_file_path = './file.svg'
 
     name = note.replace(' ', '_').lower().replace('!', '').replace('?', '').replace(',', '').replace('.', '')
-    pdf_file_path = './main_'+ name+ '.pdf'
-    encrypt_pdf_file = 'encrypt_' + name+ '.pdf'
+    pdf_file_path = f"./{address_not}_"+ name+ '.pdf'
+    if not use_passphrase:
+        encrypt_pdf_file = 'encrypt_' + name+ '.pdf'
 
     words = mnemonic.split()
 
