@@ -1,50 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="1600"
-   height="1e3"
-   aria-labelledby="title desc"
-   role="img"
-   version="1.1"
-   viewBox="0 0 1600 1e3"
-   id="svg774"
-   sodipodi:docname="template0.svg"
-   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview774"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.3713823"
-     inkscape:cx="611.42687"
-     inkscape:cy="440.06692"
-     inkscape:window-width="2560"
-     inkscape:window-height="1440"
-     inkscape:window-x="2560"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg774" />
-  <title
-     id="title">Minimalist wallet mnemonic backup template</title>
-  <desc
-     id="desc">Landscape printable SVG template with mnemonic phrase area on the left and notes area on the right.</desc>
-  <defs
-     id="defs1">
-    <style
-       id="style1">.page-bg { fill: #ececec; }
+<svg width="1600" height="1e3" aria-labelledby="title desc" role="img" version="1.1" viewBox="0 0 1600 1e3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title id="title">Minimalist wallet mnemonic backup template</title>
+	<desc id="desc">Landscape printable SVG template with mnemonic phrase area on the left and notes area on the right.</desc>
+	<defs>
+		<style>.page-bg { fill: #ececec; }
       .border { fill: none; stroke: #111111; stroke-width: 2; }
       .divider-line { stroke: #111111; stroke-width: 2; }
       .title-red {
         fill: #8d2b2b;
-        font-family: &quot;Arial Narrow&quot;, &quot;Helvetica Neue Condensed&quot;, Arial, sans-serif;
+        font-family: "Arial Narrow", "Helvetica Neue Condensed", Arial, sans-serif;
         font-size: 34px;
         font-weight: 700;
         letter-spacing: 0.5px;
@@ -74,9 +37,9 @@
         font-weight: 500;
       }
       .token {
-        fill: #777777;
-        font-family: &quot;Courier New&quot;, monospace;
-        font-size: 14px;
+        fill: #0000000;
+        font-family: Arial, sans-serif;
+        font-size: 22px;
         font-weight: 500;
         text-anchor: middle;
       }
@@ -109,4337 +72,861 @@
         stroke-width: 10;
         stroke-linecap: round;
       }</style>
-  </defs>
-  <g
-     id="outer-border">
-    <rect
-       class="border"
-       x="28"
-       y="28"
-       width="1544"
-       height="944"
-       rx="24"
-       ry="24"
-       id="rect1" />
-  </g>
-  <g
-     id="layout"
-     fill="none">
-    <rect
-       x="70"
-       y="70"
-       width="640"
-       height="860"
-       id="rect2" />
-    <rect
-       x="742"
-       y="70"
-       width="788"
-       height="860"
-       id="rect3" />
-  </g>
-  <g
-     id="divider"
-     transform="translate(1.4842)">
-    <line
-       class="divider-line"
-       x1="726"
-       x2="726"
-       y1="78"
-       y2="922"
-       id="line3" />
-  </g>
-  <g
-     id="left-panel">
-    <g
-       id="left-placeholders">
-      <text
-         id="note-box-text"
-         class="label-blue"
-         x="101.82422"
-         y="187">##NOTE_BOX</text>
-      <text
-         id="address-box-text"
-         class="label-red"
-         x="107.82422"
-         y="345.74973"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;fill:#8d2b2b">##ADDRESS_BOX</text>
-    </g>
-    <g
-       id="mnemonic-list">
-      <g
-         id="mnemonic-left-column">
-        <text
-           class="small-num"
-           x="100"
-           y="450"
-           id="text4">1</text>
-        <line
-           class="write-line"
-           x1="132"
-           x2="345"
-           y1="444"
-           y2="444"
-           id="line4" />
-        <text
-           class="token"
-           x="238.5"
-           y="440"
-           font-family="'Courier New', monospace"
-           font-size="20px"
-           font-weight="500"
-           style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;-inkscape-font-specification:'Courier New, monospace, Bold';font-family:'Courier New', monospace;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px"
-           id="text5">#T1#</text>
-        <text
-           class="small-num"
-           x="100"
-           y="490"
-           id="text6">2</text>
-        <line
-           class="write-line"
-           x1="132"
-           x2="345"
-           y1="484"
-           y2="484"
-           id="line6" />
-        <text
-           class="token"
-           x="238.5"
-           y="480"
-           font-family="'Courier New', monospace"
-           font-size="20px"
-           font-weight="500"
-           style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;-inkscape-font-specification:'Courier New, monospace, Bold';font-family:'Courier New', monospace;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px"
-           id="text7">#T2#</text>
-        <text
-           class="small-num"
-           x="100"
-           y="530"
-           id="text8">3</text>
-        <line
-           class="write-line"
-           x1="132"
-           x2="345"
-           y1="524"
-           y2="524"
-           id="line8" />
-        <text
-           class="token"
-           x="238.5"
-           y="520"
-           font-family="'Courier New', monospace"
-           font-size="20px"
-           font-weight="500"
-           style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;-inkscape-font-specification:'Courier New, monospace, Bold';font-family:'Courier New', monospace;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px"
-           id="text9">#T3#</text>
-        <text
-           class="small-num"
-           x="100"
-           y="570"
-           id="text10">4</text>
-        <line
-           class="write-line"
-           x1="132"
-           x2="345"
-           y1="564"
-           y2="564"
-           id="line10" />
-        <text
-           class="token"
-           x="238.5"
-           y="560"
-           font-family="'Courier New', monospace"
-           font-size="20px"
-           font-weight="500"
-           style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;-inkscape-font-specification:'Courier New, monospace, Bold';font-family:'Courier New', monospace;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px"
-           id="text11">#T4#</text>
-        <text
-           class="small-num"
-           x="100"
-           y="610"
-           id="text12">5</text>
-        <line
-           class="write-line"
-           x1="132"
-           x2="345"
-           y1="604"
-           y2="604"
-           id="line12" />
-        <text
-           class="token"
-           x="238.5"
-           y="600"
-           font-family="'Courier New', monospace"
-           font-size="20px"
-           font-weight="500"
-           style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;-inkscape-font-specification:'Courier New, monospace, Bold';font-family:'Courier New', monospace;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px"
-           id="text13">#T5#</text>
-        <text
-           class="small-num"
-           x="100"
-           y="650"
-           id="text14">6</text>
-        <line
-           class="write-line"
-           x1="132"
-           x2="345"
-           y1="644"
-           y2="644"
-           id="line14" />
-        <text
-           class="token"
-           x="238.5"
-           y="640"
-           font-family="'Courier New', monospace"
-           font-size="20px"
-           font-weight="500"
-           style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;-inkscape-font-specification:'Courier New, monospace, Bold';font-family:'Courier New', monospace;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px"
-           id="text15">#T6#</text>
-        <text
-           class="small-num"
-           x="100"
-           y="690"
-           id="text16">7</text>
-        <line
-           class="write-line"
-           x1="132"
-           x2="345"
-           y1="684"
-           y2="684"
-           id="line16" />
-        <text
-           class="token"
-           x="238.5"
-           y="680"
-           font-family="'Courier New', monospace"
-           font-size="20px"
-           font-weight="500"
-           style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;-inkscape-font-specification:'Courier New, monospace, Bold';font-family:'Courier New', monospace;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px"
-           id="text17">#T7#</text>
-        <text
-           class="small-num"
-           x="100"
-           y="730"
-           id="text18">8</text>
-        <line
-           class="write-line"
-           x1="132"
-           x2="345"
-           y1="724"
-           y2="724"
-           id="line18" />
-        <text
-           class="token"
-           x="238.5"
-           y="720"
-           font-family="'Courier New', monospace"
-           font-size="20px"
-           font-weight="500"
-           style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;-inkscape-font-specification:'Courier New, monospace, Bold';font-family:'Courier New', monospace;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px"
-           id="text19">#T8#</text>
-        <text
-           class="small-num"
-           x="100"
-           y="770"
-           id="text20">9</text>
-        <line
-           class="write-line"
-           x1="132"
-           x2="345"
-           y1="764"
-           y2="764"
-           id="line20" />
-        <text
-           class="token"
-           x="238.5"
-           y="760"
-           font-family="'Courier New', monospace"
-           font-size="20px"
-           font-weight="500"
-           style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;-inkscape-font-specification:'Courier New, monospace, Bold';font-family:'Courier New', monospace;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px"
-           id="text21">#T9#</text>
-        <text
-           class="small-num"
-           x="92"
-           y="810"
-           id="text22">10</text>
-        <line
-           class="write-line"
-           x1="132"
-           x2="345"
-           y1="804"
-           y2="804"
-           id="line22" />
-        <text
-           class="token"
-           x="238.5"
-           y="800"
-           font-family="'Courier New', monospace"
-           font-size="20px"
-           font-weight="500"
-           style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;-inkscape-font-specification:'Courier New, monospace, Bold';font-family:'Courier New', monospace;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px"
-           id="text23">#T10#</text>
-        <text
-           class="small-num"
-           x="92"
-           y="850"
-           id="text24">11</text>
-        <line
-           class="write-line"
-           x1="132"
-           x2="345"
-           y1="844"
-           y2="844"
-           id="line24" />
-        <text
-           class="token"
-           x="238.5"
-           y="840"
-           font-family="'Courier New', monospace"
-           font-size="20px"
-           font-weight="500"
-           style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;-inkscape-font-specification:'Courier New, monospace, Bold';font-family:'Courier New', monospace;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px"
-           id="text25">#T11#</text>
-        <text
-           class="small-num"
-           x="92"
-           y="890"
-           id="text26">12</text>
-        <line
-           class="write-line"
-           x1="132"
-           x2="345"
-           y1="884"
-           y2="884"
-           id="line26" />
-        <text
-           class="token"
-           x="238.5"
-           y="880"
-           font-family="'Courier New', monospace"
-           font-size="20px"
-           font-weight="500"
-           style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;-inkscape-font-specification:'Courier New, monospace, Bold';font-family:'Courier New', monospace;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px"
-           id="text27">#T12#</text>
-      </g>
-      <g
-         id="mnemonic-right-column">
-        <text
-           class="small-num"
-           x="377"
-           y="450"
-           id="text28">13</text>
-        <line
-           class="write-line"
-           x1="425"
-           x2="638"
-           y1="444"
-           y2="444"
-           id="line28" />
-        <text
-           class="token"
-           x="531.5"
-           y="440"
-           font-family="'Courier New', monospace"
-           font-size="20px"
-           font-weight="500"
-           style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;-inkscape-font-specification:'Courier New, monospace, Bold';font-family:'Courier New', monospace;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px"
-           id="text29">#T13#</text>
-        <text
-           class="small-num"
-           x="377"
-           y="490"
-           id="text30">14</text>
-        <line
-           class="write-line"
-           x1="425"
-           x2="638"
-           y1="484"
-           y2="484"
-           id="line30" />
-        <text
-           class="token"
-           x="531.5"
-           y="480"
-           font-family="'Courier New', monospace"
-           font-size="20px"
-           font-weight="500"
-           style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;-inkscape-font-specification:'Courier New, monospace, Bold';font-family:'Courier New', monospace;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px"
-           id="text31">#T14#</text>
-        <text
-           class="small-num"
-           x="377"
-           y="530"
-           id="text32">15</text>
-        <line
-           class="write-line"
-           x1="425"
-           x2="638"
-           y1="524"
-           y2="524"
-           id="line32" />
-        <text
-           class="token"
-           x="531.5"
-           y="520"
-           font-family="'Courier New', monospace"
-           font-size="20px"
-           font-weight="500"
-           style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;-inkscape-font-specification:'Courier New, monospace, Bold';font-family:'Courier New', monospace;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px"
-           id="text33">#T15#</text>
-        <text
-           class="small-num"
-           x="377"
-           y="570"
-           id="text34">16</text>
-        <line
-           class="write-line"
-           x1="425"
-           x2="638"
-           y1="564"
-           y2="564"
-           id="line34" />
-        <text
-           class="token"
-           x="531.5"
-           y="560"
-           font-family="'Courier New', monospace"
-           font-size="20px"
-           font-weight="500"
-           style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;-inkscape-font-specification:'Courier New, monospace, Bold';font-family:'Courier New', monospace;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px"
-           id="text35">#T16#</text>
-        <text
-           class="small-num"
-           x="377"
-           y="610"
-           id="text36">17</text>
-        <line
-           class="write-line"
-           x1="425"
-           x2="638"
-           y1="604"
-           y2="604"
-           id="line36" />
-        <text
-           class="token"
-           x="531.5"
-           y="600"
-           font-family="'Courier New', monospace"
-           font-size="20px"
-           font-weight="500"
-           style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;-inkscape-font-specification:'Courier New, monospace, Bold';font-family:'Courier New', monospace;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px"
-           id="text37">#T17#</text>
-        <text
-           class="small-num"
-           x="377"
-           y="650"
-           id="text38">18</text>
-        <line
-           class="write-line"
-           x1="425"
-           x2="638"
-           y1="644"
-           y2="644"
-           id="line38" />
-        <text
-           class="token"
-           x="531.5"
-           y="640"
-           font-family="'Courier New', monospace"
-           font-size="20px"
-           font-weight="500"
-           style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;-inkscape-font-specification:'Courier New, monospace, Bold';font-family:'Courier New', monospace;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px"
-           id="text39">#T18#</text>
-        <text
-           class="small-num"
-           x="377"
-           y="690"
-           id="text40">19</text>
-        <line
-           class="write-line"
-           x1="425"
-           x2="638"
-           y1="684"
-           y2="684"
-           id="line40" />
-        <text
-           class="token"
-           x="531.5"
-           y="680"
-           font-family="'Courier New', monospace"
-           font-size="20px"
-           font-weight="500"
-           style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;-inkscape-font-specification:'Courier New, monospace, Bold';font-family:'Courier New', monospace;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px"
-           id="text41">#T19#</text>
-        <text
-           class="small-num"
-           x="377"
-           y="730"
-           id="text42">20</text>
-        <line
-           class="write-line"
-           x1="425"
-           x2="638"
-           y1="724"
-           y2="724"
-           id="line42" />
-        <text
-           class="token"
-           x="531.5"
-           y="720"
-           font-family="'Courier New', monospace"
-           font-size="20px"
-           font-weight="500"
-           style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;-inkscape-font-specification:'Courier New, monospace, Bold';font-family:'Courier New', monospace;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px"
-           id="text43">#T20#</text>
-        <text
-           class="small-num"
-           x="377"
-           y="770"
-           id="text44">21</text>
-        <line
-           class="write-line"
-           x1="425"
-           x2="638"
-           y1="764"
-           y2="764"
-           id="line44" />
-        <text
-           class="token"
-           x="531.5"
-           y="760"
-           font-family="'Courier New', monospace"
-           font-size="20px"
-           font-weight="500"
-           style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;-inkscape-font-specification:'Courier New, monospace, Bold';font-family:'Courier New', monospace;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px"
-           id="text45">#T21#</text>
-        <text
-           class="small-num"
-           x="377"
-           y="810"
-           id="text46">22</text>
-        <line
-           class="write-line"
-           x1="425"
-           x2="638"
-           y1="804"
-           y2="804"
-           id="line46" />
-        <text
-           class="token"
-           x="531.5"
-           y="800"
-           font-family="'Courier New', monospace"
-           font-size="20px"
-           font-weight="500"
-           style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;-inkscape-font-specification:'Courier New, monospace, Bold';font-family:'Courier New', monospace;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px"
-           id="text47">#T22#</text>
-        <text
-           class="small-num"
-           x="377"
-           y="850"
-           id="text48">23</text>
-        <line
-           class="write-line"
-           x1="425"
-           x2="638"
-           y1="844"
-           y2="844"
-           id="line48" />
-        <text
-           class="token"
-           x="531.5"
-           y="840"
-           font-family="'Courier New', monospace"
-           font-size="20px"
-           font-weight="500"
-           style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;-inkscape-font-specification:'Courier New, monospace, Bold';font-family:'Courier New', monospace;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px"
-           id="text49">#T23#</text>
-        <text
-           class="small-num"
-           x="377"
-           y="890"
-           id="text50">24</text>
-        <line
-           class="write-line"
-           x1="425"
-           x2="638"
-           y1="884"
-           y2="884"
-           id="line50" />
-        <text
-           class="token"
-           x="531.5"
-           y="880"
-           font-family="'Courier New', monospace"
-           font-size="20px"
-           font-weight="500"
-           style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;-inkscape-font-specification:'Courier New, monospace, Bold';font-family:'Courier New', monospace;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px"
-           id="text51">#T24#</text>
-        <text
-           x="107.84376"
-           y="315.12994"
-           fill="#1a1a1a"
-           font-family="Arial"
-           font-size="11px"
-           id="text84"><tspan
-             x="107.84376"
-             y="315.12994"
-             font-family="Sans"
-             font-size="13.333px"
-             font-weight="bold"
-             style="font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
-             id="tspan84">Address:</tspan></text>
-      </g>
-    </g>
-    <path
-       d="m 113.6927,109.91884 -3.21142,11.88237 h -2.30561 l -3.15641,-11.85027 v 11.85027 H 102 V 99.32037 h 3.01926 l 4.30921,14.86891 4.36403,-14.86891 h 3.01926 v 22.48084 h -3.01926 z m 14.08877,1.76628 c 0,-0.85744 -0.20859,-1.54147 -0.63128,-2.05531 -0.40072,-0.5363 -0.94967,-0.80285 -1.64684,-0.80285 -0.56541,0 -1.18023,0.19258 -1.83896,0.57805 v 12.39613 h -2.99175 V 105.7119 h 2.66244 l 0.35682,0.1928 c 0.76853,-0.29866 1.56449,-0.4496 2.38794,-0.4496 0.91674,0 1.7127,0.19259 2.38794,0.57805 0.73284,0.38538 1.30099,0.96343 1.70173,1.73419 0.42269,0.77074 0.63128,1.7438 0.63128,2.92234 v 11.11161 h -3.01926 z m 8.8654,5.33092 c 0,0.60053 0.13715,1.06941 0.41171,1.41304 0.29369,0.32114 0.71363,0.48172 1.26256,0.48172 0.84262,0 1.96796,-0.42713 3.37608,-1.28458 l 1.09789,3.05095 c -0.65873,0.49134 -1.40804,0.86707 -2.25059,1.124 -0.83989,0.2569 -1.68252,0.38535 -2.52508,0.38535 -1.35314,0 -2.43191,-0.38535 -3.23873,-1.15611 -0.78499,-0.79321 -1.18023,-1.96861 -1.18023,-3.53262 v -6.58334 c 0,-1.73417 0.45837,-3.08304 1.37236,-4.04639 0.9332,-0.96342 2.16012,-1.44514 3.67788,-1.44514 1.52058,0 2.70079,0.48172 3.54075,1.44514 0.86184,0.94096 1.29001,2.25768 1.29001,3.95009 v 4.88134 l -6.83429,0.4175 z m 3.78773,-6.13377 c 0,-0.64229 -0.17299,-1.13363 -0.5215,-1.47726 -0.34584,-0.34362 -0.77676,-0.51382 -1.29001,-0.51382 -0.69442,0 -1.1967,0.21516 -1.50959,0.64229 -0.31016,0.42711 -0.46661,0.89919 -0.46661,1.41302 v 1.92686 l 3.78773,-0.28902 z m 20.35489,1.15611 c 0,-1.15611 -0.13715,-1.99109 -0.41171,-2.50486 -0.25525,-0.51383 -0.67519,-0.77076 -1.26256,-0.77076 -0.41993,0 -0.9881,0.1509 -1.70173,0.44962 l -0.46661,0.22479 c 0.0384,0.12839 0.0659,0.27939 0.0823,0.44959 0.0188,0.17029 0.0275,0.33079 0.0275,0.48172 v 11.43279 h -3.01926 v -9.66638 c 0,-1.06942 -0.20859,-1.89476 -0.63128,-2.47277 -0.41993,-0.57807 -0.9881,-0.86709 -1.70173,-0.86709 -0.63952,0 -1.3065,0.23443 -2.00364,0.70652 v 12.29984 h -3.01926 v -16.08924 h 2.66243 l 0.35683,0.22481 c 0.60383,-0.32114 1.29001,-0.48171 2.05854,-0.48171 0.62304,0 1.2269,0.12839 1.81151,0.38536 0.58737,0.23443 1.09788,0.61981 1.53704,1.15612 0.25801,-0.17029 0.64226,-0.40785 1.15278,-0.70651 1.08142,-0.57807 2.12449,-0.86709 3.12889,-0.86709 1.301,0 2.36043,0.47208 3.18392,1.41302 0.82341,0.92168 1.23513,2.20619 1.23513,3.8538 v 11.11161 h -3.01926 z m 16.47378,3.8538 c 0,1.79841 -0.41993,3.28521 -1.26258,4.46386 -0.83987,1.17859 -2.11344,1.76629 -3.81524,1.76629 -1.70173,0 -2.99174,-0.5877 -3.87005,-1.76629 -0.85909,-1.19786 -1.29001,-2.68786 -1.29001,-4.46386 v -4.23917 c 0,-2.03283 0.43915,-3.58723 1.31746,-4.65666 0.89752,-1.09188 2.1793,-1.63783 3.84254,-1.63783 1.59194,0 2.83814,0.56844 3.73291,1.70207 0.89753,1.11437 1.34491,2.64305 1.34491,4.59225 z m -2.99174,-4.23917 c 0,-1.13363 -0.2003,-1.87225 -0.60383,-2.21599 -0.40072,-0.34361 -0.89478,-0.51383 -1.48216,-0.51383 -1.42726,0 -2.14096,0.90884 -2.14096,2.72975 v 4.56016 c 0,0.85746 0.20322,1.47726 0.60384,1.86264 0.40347,0.38536 0.91674,0.57805 1.53703,0.57805 0.60383,0 1.09789,-0.20239 1.48216,-0.61017 0.40347,-0.40785 0.60383,-1.01802 0.60383,-1.83052 z m 12.93596,0.0321 c 0,-0.85744 -0.21134,-1.54147 -0.63128,-2.05531 -0.40347,-0.5363 -0.95242,-0.80285 -1.64684,-0.80285 -0.56815,0 -1.18023,0.19258 -1.83898,0.57807 v 12.39613 h -2.99175 V 105.7119 h 2.66243 l 0.35681,0.1928 c 0.76853,-0.29866 1.56449,-0.4496 2.38794,-0.4496 0.91399,0 1.70994,0.19259 2.38793,0.57805 0.73012,0.38538 1.29827,0.96343 1.70174,1.73419 0.41994,0.77074 0.63128,1.7438 0.63128,2.92234 v 11.11161 h -3.01926 z m 8.64593,-8.89562 c -0.43915,0 -0.82343,-0.19259 -1.15278,-0.57805 -0.32938,-0.38538 -0.49406,-0.83498 -0.49406,-1.34881 0,-0.49134 0.16466,-0.92168 0.49406,-1.28457 0.32935,-0.38536 0.71363,-0.57805 1.15278,-0.57805 0.41994,0 0.78499,0.1928 1.09788,0.57805 0.32938,0.36289 0.49406,0.79323 0.49406,1.28457 0,0.51383 -0.16466,0.96343 -0.49406,1.34881 -0.31289,0.38538 -0.67794,0.57805 -1.09788,0.57805 z m -1.59194,2.92234 h 3.01926 v 16.08924 h -3.01926 z m 14.33013,15.89666 c -1.13359,0.34363 -2.23141,0.51383 -3.29376,0.51383 -0.98811,0 -1.81151,-0.12839 -2.47027,-0.38538 -1.07866,-0.42711 -1.86639,-1.08225 -2.36042,-1.95898 -0.47484,-0.89919 -0.71363,-2.15158 -0.71363,-3.75729 v -4.11058 c 0,-2.11949 0.47484,-3.7252 1.42724,-4.81715 0.9524,-1.11437 2.17659,-1.66995 3.67788,-1.66995 1.18847,0 2.41525,0.34364 3.67789,1.02767 l -0.82343,3.05094 c -0.87831,-0.40785 -1.66603,-0.61017 -2.36042,-0.61017 -0.82343,0 -1.46295,0.26654 -1.92132,0.80286 -0.43915,0.5363 -0.65873,1.2107 -0.65873,2.02319 v 4.65666 c 0,0.8125 0.24703,1.39055 0.74106,1.73418 0.49406,0.34362 1.12536,0.51384 1.89387,0.51384 0.43915,0 0.8783,-0.0546 1.31748,-0.16049 0.43915,-0.10588 0.78772,-0.21518 1.04298,-0.32114 z m 10.46007,-22.287 h 6.25799 c 1.92131,0 3.34023,0.72899 4.25439,2.18368 0.93319,1.43551 1.39979,3.24352 1.39979,5.42741 0,5.7388 -1.80053,8.60675 -5.40699,8.60675 h -3.48572 v 6.26237 h -3.01925 z m 5.59915,12.84571 c 1.04299,0 1.80329,-0.26655 2.2781,-0.80288 0.49405,-0.5363 0.78773,-1.13363 0.87831,-1.79838 0.0934,-0.68403 0.13714,-1.5415 0.13714,-2.56906 0,-1.13363 -0.13714,-2.0007 -0.41172,-2.60116 -0.25526,-0.61981 -0.63128,-1.02766 -1.12534,-1.22035 -0.47483,-0.21516 -1.09788,-0.32114 -1.86641,-0.32114 h -2.47027 v 9.3131 z m 16.24327,-0.22481 c 0,-1.15611 -0.21958,-1.98146 -0.65873,-2.47276 -0.41994,-0.49135 -0.96066,-0.73862 -1.61939,-0.73862 -0.34584,0 -0.68618,0.0642 -1.01555,0.19258 -0.32936,0.10609 -0.59285,0.23444 -0.79596,0.38536 v 12.49243 h -3.01926 V 99.32055 h 3.01926 v 6.51915 c 0.64226,-0.2794 1.38334,-0.41748 2.22328,-0.41748 0.95242,0 1.80328,0.20238 2.55259,0.61017 0.73285,0.38538 1.301,0.96343 1.70174,1.73419 0.42269,0.77074 0.63128,1.74379 0.63128,2.92234 v 11.11161 h -3.01926 z m 6.34574,-6.23027 h 2.79958 l 0.21958,0.12839 c 0.74931,-0.29865 1.45471,-0.44959 2.11344,-0.44959 0.45837,0 1.12533,0.10588 2.00364,0.32114 l 0.54895,0.12839 -0.71363,3.43632 c -0.51327,-0.29865 -1.01556,-0.4496 -1.50961,-0.4496 -0.67795,0 -1.25433,0.24728 -1.72916,0.73862 -0.47484,0.47209 -0.71363,1.10154 -0.71363,1.89474 v 10.34085 h -3.01926 z m 17.602,16.08924 c -1.97619,0.23444 -3.40339,0.35326 -4.2817,0.35326 -1.92131,0 -3.45008,-0.41749 -4.5837,-1.25247 -1.13632,-0.83495 -1.70172,-2.34438 -1.70172,-4.52806 v -2.66556 c 0,-2.11948 0.63128,-3.5422 1.89386,-4.27127 0.60383,-0.34361 1.29002,-0.51383 2.05854,-0.51383 0.6752,0 1.34492,0.10588 2.00365,0.32114 0.65873,0.21518 1.18846,0.44962 1.59193,0.70652 0,-0.79323 -0.27447,-1.32632 -0.8234,-1.60571 -0.54896,-0.29868 -1.25435,-0.4496 -2.11345,-0.4496 l 0.24703,-2.44067 c 1.75662,0 3.04657,0.33077 3.87006,0.99555 0.83989,0.64228 1.35314,1.41302 1.53703,2.31228 0.2003,0.89921 0.30193,2.05533 0.30193,3.46842 z m -3.01926,-8.09276 c -0.32936,-0.2794 -0.79596,-0.5363 -1.39981,-0.77074 -0.58737,-0.25693 -1.12534,-0.38538 -1.61939,-0.38538 -0.43915,0 -0.79596,0.12839 -1.07043,0.38538 -0.27448,0.2569 -0.41171,0.66475 -0.41171,1.22033 v 1.76629 c 0,1.94934 0.97712,2.92234 2.93693,2.92234 0.56542,0 1.0869,-0.0546 1.56449,-0.16049 z m 8.0146,3.661 c 0,0.38538 0.16466,0.74827 0.49406,1.0919 0.34584,0.34361 0.86734,0.51381 1.56451,0.51381 0.60383,0 1.07043,-0.17028 1.39979,-0.51381 0.32937,-0.36289 0.49405,-0.78039 0.49405,-1.25247 0,-0.66476 -0.21135,-1.15612 -0.63128,-1.47726 -0.40347,-0.32115 -1.0622,-0.67439 -1.97619,-1.05977 -0.78775,-0.29865 -1.43825,-0.60053 -1.94877,-0.89919 -0.51327,-0.29867 -0.97164,-0.74827 -1.37236,-1.34881 -0.40347,-0.60053 -0.64226,-1.38092 -0.71363,-2.34437 -0.0548,-0.72899 0.0632,-1.45477 0.35683,-2.18368 0.31014,-0.74827 0.82341,-1.35844 1.53704,-1.83052 0.73009,-0.49135 1.6633,-0.73862 2.79958,-0.73862 0.58461,0 1.09788,0.0738 1.53703,0.22478 0.45562,0.12839 0.81245,0.26656 1.07044,0.4175 0.25526,0.1509 0.41172,0.24728 0.4666,0.28903 l -0.87831,3.27562 c -0.0384,-0.0417 -0.13714,-0.1188 -0.3019,-0.22481 -0.14819,-0.12839 -0.38428,-0.24728 -0.71363,-0.35326 -0.32938,-0.10588 -0.72462,-0.16049 -1.18023,-0.16049 -0.98811,0 -1.48216,0.32114 -1.48216,0.96343 0,0.12839 0.0167,0.25693 0.0548,0.38538 0.0548,0.29865 0.24703,0.55558 0.57638,0.77074 0.32938,0.19258 0.81245,0.42713 1.45471,0.70652 0.89478,0.38536 1.64684,0.77074 2.25059,1.15612 0.62032,0.36289 1.15278,0.92168 1.59196,1.66993 0.45562,0.72901 0.68618,1.66995 0.68618,2.82605 0,0.87672 -0.18384,1.70205 -0.54896,2.47277 -0.36779,0.74824 -0.9332,1.35843 -1.70173,1.8305 -0.75205,0.47208 -1.69349,0.70652 -2.82709,0.70652 -1.04301,0 -1.94877,-0.20238 -2.71725,-0.61017 -0.75205,-0.42713 -1.32845,-0.98592 -1.72917,-1.66995 -0.38427,-0.68403 -0.59562,-1.44514 -0.6313,-2.28018 z m 11.8188,-0.35324 c 0,0.60054 0.13715,1.06939 0.41171,1.41302 0.29367,0.32115 0.71363,0.48172 1.26256,0.48172 0.84265,0 1.96798,-0.42713 3.37608,-1.28457 l 1.09789,3.05094 c -0.65873,0.49134 -1.40804,0.86709 -2.25059,1.124 -0.83989,0.2569 -1.68251,0.38538 -2.52508,0.38538 -1.35316,0 -2.43191,-0.38538 -3.23873,-1.15612 -0.78499,-0.79323 -1.18023,-1.96861 -1.18023,-3.53261 v -6.58335 c 0,-1.73417 0.45837,-3.08304 1.37236,-4.04638 0.9332,-0.96343 2.16013,-1.44515 3.67788,-1.44515 1.52058,0 2.70079,0.48172 3.54075,1.44515 0.86184,0.94096 1.29001,2.25767 1.29001,3.95009 v 4.88134 l -6.83429,0.41747 z m 3.78773,-6.13377 c 0,-0.64229 -0.17299,-1.13363 -0.5215,-1.47724 -0.34582,-0.34363 -0.77674,-0.51383 -1.29001,-0.51383 -0.69442,0 -1.1967,0.21515 -1.50959,0.64228 -0.31016,0.42711 -0.46661,0.89919 -0.46661,1.41303 v 1.92685 l 3.78773,-0.28902 z"
-       fill="#aa0000"
-       id="path2"
-       style="stroke-width:0.999999" />
-  </g>
-  <image
-     x="474.5"
-     y="81.364"
-     width="220"
-     height="220"
-     stroke-width=".5"
-     xlink:href="data:image/png;base64,#qr_code_base64#"
-     id="image51" />
-  <g
-     id="right-panel">
-    <g
-       id="notes-section">
-      <text
-         class="title-notes"
-         x="780"
-         y="152"
-         id="text52">Notes:</text>
-      <g
-         id="notes-first-line">
-        <g
-           aria-hidden="true"
-           id="g98">
-          <circle
-             class="dot"
-             cx="940"
-             cy="163"
-             r="1.8"
-             id="circle52" />
-          <circle
-             class="dot"
-             cx="952"
-             cy="163"
-             r="1.8"
-             id="circle53" />
-          <circle
-             class="dot"
-             cx="964"
-             cy="163"
-             r="1.8"
-             id="circle54" />
-          <circle
-             class="dot"
-             cx="976"
-             cy="163"
-             r="1.8"
-             id="circle55" />
-          <circle
-             class="dot"
-             cx="988"
-             cy="163"
-             r="1.8"
-             id="circle56" />
-          <circle
-             class="dot"
-             cx="1e3"
-             cy="163"
-             r="1.8"
-             id="circle57" />
-          <circle
-             class="dot"
-             cx="1012"
-             cy="163"
-             r="1.8"
-             id="circle58" />
-          <circle
-             class="dot"
-             cx="1024"
-             cy="163"
-             r="1.8"
-             id="circle59" />
-          <circle
-             class="dot"
-             cx="1036"
-             cy="163"
-             r="1.8"
-             id="circle60" />
-          <circle
-             class="dot"
-             cx="1048"
-             cy="163"
-             r="1.8"
-             id="circle61" />
-          <circle
-             class="dot"
-             cx="1060"
-             cy="163"
-             r="1.8"
-             id="circle62" />
-          <circle
-             class="dot"
-             cx="1072"
-             cy="163"
-             r="1.8"
-             id="circle63" />
-          <circle
-             class="dot"
-             cx="1084"
-             cy="163"
-             r="1.8"
-             id="circle64" />
-          <circle
-             class="dot"
-             cx="1096"
-             cy="163"
-             r="1.8"
-             id="circle65" />
-          <circle
-             class="dot"
-             cx="1108"
-             cy="163"
-             r="1.8"
-             id="circle66" />
-          <circle
-             class="dot"
-             cx="1120"
-             cy="163"
-             r="1.8"
-             id="circle67" />
-          <circle
-             class="dot"
-             cx="1132"
-             cy="163"
-             r="1.8"
-             id="circle68" />
-          <circle
-             class="dot"
-             cx="1144"
-             cy="163"
-             r="1.8"
-             id="circle69" />
-          <circle
-             class="dot"
-             cx="1156"
-             cy="163"
-             r="1.8"
-             id="circle70" />
-          <circle
-             class="dot"
-             cx="1168"
-             cy="163"
-             r="1.8"
-             id="circle71" />
-          <circle
-             class="dot"
-             cx="1180"
-             cy="163"
-             r="1.8"
-             id="circle72" />
-          <circle
-             class="dot"
-             cx="1192"
-             cy="163"
-             r="1.8"
-             id="circle73" />
-          <circle
-             class="dot"
-             cx="1204"
-             cy="163"
-             r="1.8"
-             id="circle74" />
-          <circle
-             class="dot"
-             cx="1216"
-             cy="163"
-             r="1.8"
-             id="circle75" />
-          <circle
-             class="dot"
-             cx="1228"
-             cy="163"
-             r="1.8"
-             id="circle76" />
-          <circle
-             class="dot"
-             cx="1240"
-             cy="163"
-             r="1.8"
-             id="circle77" />
-          <circle
-             class="dot"
-             cx="1252"
-             cy="163"
-             r="1.8"
-             id="circle78" />
-          <circle
-             class="dot"
-             cx="1264"
-             cy="163"
-             r="1.8"
-             id="circle79" />
-          <circle
-             class="dot"
-             cx="1276"
-             cy="163"
-             r="1.8"
-             id="circle80" />
-          <circle
-             class="dot"
-             cx="1288"
-             cy="163"
-             r="1.8"
-             id="circle81" />
-          <circle
-             class="dot"
-             cx="1300"
-             cy="163"
-             r="1.8"
-             id="circle82" />
-          <circle
-             class="dot"
-             cx="1312"
-             cy="163"
-             r="1.8"
-             id="circle83" />
-          <circle
-             class="dot"
-             cx="1324"
-             cy="163"
-             r="1.8"
-             id="circle84" />
-          <circle
-             class="dot"
-             cx="1336"
-             cy="163"
-             r="1.8"
-             id="circle85" />
-          <circle
-             class="dot"
-             cx="1348"
-             cy="163"
-             r="1.8"
-             id="circle86" />
-          <circle
-             class="dot"
-             cx="1360"
-             cy="163"
-             r="1.8"
-             id="circle87" />
-          <circle
-             class="dot"
-             cx="1372"
-             cy="163"
-             r="1.8"
-             id="circle88" />
-          <circle
-             class="dot"
-             cx="1384"
-             cy="163"
-             r="1.8"
-             id="circle89" />
-          <circle
-             class="dot"
-             cx="1396"
-             cy="163"
-             r="1.8"
-             id="circle90" />
-          <circle
-             class="dot"
-             cx="1408"
-             cy="163"
-             r="1.8"
-             id="circle91" />
-          <circle
-             class="dot"
-             cx="1420"
-             cy="163"
-             r="1.8"
-             id="circle92" />
-          <circle
-             class="dot"
-             cx="1432"
-             cy="163"
-             r="1.8"
-             id="circle93" />
-          <circle
-             class="dot"
-             cx="1444"
-             cy="163"
-             r="1.8"
-             id="circle94" />
-          <circle
-             class="dot"
-             cx="1456"
-             cy="163"
-             r="1.8"
-             id="circle95" />
-          <circle
-             class="dot"
-             cx="1468"
-             cy="163"
-             r="1.8"
-             id="circle96" />
-          <circle
-             class="dot"
-             cx="1480"
-             cy="163"
-             r="1.8"
-             id="circle97" />
-          <circle
-             class="dot"
-             cx="1492"
-             cy="163"
-             r="1.8"
-             id="circle98" />
-        </g>
-      </g>
-      <g
-         id="notes-guides"
-         aria-hidden="true">
-        <g
-           transform="translate(0,220)"
-           id="g150">
-          <circle
-             class="dot"
-             cx="776"
-             r="1.8"
-             id="circle99" />
-          <circle
-             class="dot"
-             cx="790"
-             r="1.8"
-             id="circle100" />
-          <circle
-             class="dot"
-             cx="804"
-             r="1.8"
-             id="circle101" />
-          <circle
-             class="dot"
-             cx="818"
-             r="1.8"
-             id="circle102" />
-          <circle
-             class="dot"
-             cx="832"
-             r="1.8"
-             id="circle103" />
-          <circle
-             class="dot"
-             cx="846"
-             r="1.8"
-             id="circle104" />
-          <circle
-             class="dot"
-             cx="860"
-             r="1.8"
-             id="circle105" />
-          <circle
-             class="dot"
-             cx="874"
-             r="1.8"
-             id="circle106" />
-          <circle
-             class="dot"
-             cx="888"
-             r="1.8"
-             id="circle107" />
-          <circle
-             class="dot"
-             cx="902"
-             r="1.8"
-             id="circle108" />
-          <circle
-             class="dot"
-             cx="916"
-             r="1.8"
-             id="circle109" />
-          <circle
-             class="dot"
-             cx="930"
-             r="1.8"
-             id="circle110" />
-          <circle
-             class="dot"
-             cx="944"
-             r="1.8"
-             id="circle111" />
-          <circle
-             class="dot"
-             cx="958"
-             r="1.8"
-             id="circle112" />
-          <circle
-             class="dot"
-             cx="972"
-             r="1.8"
-             id="circle113" />
-          <circle
-             class="dot"
-             cx="986"
-             r="1.8"
-             id="circle114" />
-          <circle
-             class="dot"
-             cx="1e3"
-             r="1.8"
-             id="circle115" />
-          <circle
-             class="dot"
-             cx="1014"
-             r="1.8"
-             id="circle116" />
-          <circle
-             class="dot"
-             cx="1028"
-             r="1.8"
-             id="circle117" />
-          <circle
-             class="dot"
-             cx="1042"
-             r="1.8"
-             id="circle118" />
-          <circle
-             class="dot"
-             cx="1056"
-             r="1.8"
-             id="circle119" />
-          <circle
-             class="dot"
-             cx="1070"
-             r="1.8"
-             id="circle120" />
-          <circle
-             class="dot"
-             cx="1084"
-             r="1.8"
-             id="circle121" />
-          <circle
-             class="dot"
-             cx="1098"
-             r="1.8"
-             id="circle122" />
-          <circle
-             class="dot"
-             cx="1112"
-             r="1.8"
-             id="circle123" />
-          <circle
-             class="dot"
-             cx="1126"
-             r="1.8"
-             id="circle124" />
-          <circle
-             class="dot"
-             cx="1140"
-             r="1.8"
-             id="circle125" />
-          <circle
-             class="dot"
-             cx="1154"
-             r="1.8"
-             id="circle126" />
-          <circle
-             class="dot"
-             cx="1168"
-             r="1.8"
-             id="circle127" />
-          <circle
-             class="dot"
-             cx="1182"
-             r="1.8"
-             id="circle128" />
-          <circle
-             class="dot"
-             cx="1196"
-             r="1.8"
-             id="circle129" />
-          <circle
-             class="dot"
-             cx="1210"
-             r="1.8"
-             id="circle130" />
-          <circle
-             class="dot"
-             cx="1224"
-             r="1.8"
-             id="circle131" />
-          <circle
-             class="dot"
-             cx="1238"
-             r="1.8"
-             id="circle132" />
-          <circle
-             class="dot"
-             cx="1252"
-             r="1.8"
-             id="circle133" />
-          <circle
-             class="dot"
-             cx="1266"
-             r="1.8"
-             id="circle134" />
-          <circle
-             class="dot"
-             cx="1280"
-             r="1.8"
-             id="circle135" />
-          <circle
-             class="dot"
-             cx="1294"
-             r="1.8"
-             id="circle136" />
-          <circle
-             class="dot"
-             cx="1308"
-             r="1.8"
-             id="circle137" />
-          <circle
-             class="dot"
-             cx="1322"
-             r="1.8"
-             id="circle138" />
-          <circle
-             class="dot"
-             cx="1336"
-             r="1.8"
-             id="circle139" />
-          <circle
-             class="dot"
-             cx="1350"
-             r="1.8"
-             id="circle140" />
-          <circle
-             class="dot"
-             cx="1364"
-             r="1.8"
-             id="circle141" />
-          <circle
-             class="dot"
-             cx="1378"
-             r="1.8"
-             id="circle142" />
-          <circle
-             class="dot"
-             cx="1392"
-             r="1.8"
-             id="circle143" />
-          <circle
-             class="dot"
-             cx="1406"
-             r="1.8"
-             id="circle144" />
-          <circle
-             class="dot"
-             cx="1420"
-             r="1.8"
-             id="circle145" />
-          <circle
-             class="dot"
-             cx="1434"
-             r="1.8"
-             id="circle146" />
-          <circle
-             class="dot"
-             cx="1448"
-             r="1.8"
-             id="circle147" />
-          <circle
-             class="dot"
-             cx="1462"
-             r="1.8"
-             id="circle148" />
-          <circle
-             class="dot"
-             cx="1476"
-             r="1.8"
-             id="circle149" />
-          <circle
-             class="dot"
-             cx="1490"
-             r="1.8"
-             id="circle150" />
-        </g>
-        <g
-           transform="translate(0,275)"
-           id="g202">
-          <circle
-             class="dot"
-             cx="776"
-             r="1.8"
-             id="circle151" />
-          <circle
-             class="dot"
-             cx="790"
-             r="1.8"
-             id="circle152" />
-          <circle
-             class="dot"
-             cx="804"
-             r="1.8"
-             id="circle153" />
-          <circle
-             class="dot"
-             cx="818"
-             r="1.8"
-             id="circle154" />
-          <circle
-             class="dot"
-             cx="832"
-             r="1.8"
-             id="circle155" />
-          <circle
-             class="dot"
-             cx="846"
-             r="1.8"
-             id="circle156" />
-          <circle
-             class="dot"
-             cx="860"
-             r="1.8"
-             id="circle157" />
-          <circle
-             class="dot"
-             cx="874"
-             r="1.8"
-             id="circle158" />
-          <circle
-             class="dot"
-             cx="888"
-             r="1.8"
-             id="circle159" />
-          <circle
-             class="dot"
-             cx="902"
-             r="1.8"
-             id="circle160" />
-          <circle
-             class="dot"
-             cx="916"
-             r="1.8"
-             id="circle161" />
-          <circle
-             class="dot"
-             cx="930"
-             r="1.8"
-             id="circle162" />
-          <circle
-             class="dot"
-             cx="944"
-             r="1.8"
-             id="circle163" />
-          <circle
-             class="dot"
-             cx="958"
-             r="1.8"
-             id="circle164" />
-          <circle
-             class="dot"
-             cx="972"
-             r="1.8"
-             id="circle165" />
-          <circle
-             class="dot"
-             cx="986"
-             r="1.8"
-             id="circle166" />
-          <circle
-             class="dot"
-             cx="1e3"
-             r="1.8"
-             id="circle167" />
-          <circle
-             class="dot"
-             cx="1014"
-             r="1.8"
-             id="circle168" />
-          <circle
-             class="dot"
-             cx="1028"
-             r="1.8"
-             id="circle169" />
-          <circle
-             class="dot"
-             cx="1042"
-             r="1.8"
-             id="circle170" />
-          <circle
-             class="dot"
-             cx="1056"
-             r="1.8"
-             id="circle171" />
-          <circle
-             class="dot"
-             cx="1070"
-             r="1.8"
-             id="circle172" />
-          <circle
-             class="dot"
-             cx="1084"
-             r="1.8"
-             id="circle173" />
-          <circle
-             class="dot"
-             cx="1098"
-             r="1.8"
-             id="circle174" />
-          <circle
-             class="dot"
-             cx="1112"
-             r="1.8"
-             id="circle175" />
-          <circle
-             class="dot"
-             cx="1126"
-             r="1.8"
-             id="circle176" />
-          <circle
-             class="dot"
-             cx="1140"
-             r="1.8"
-             id="circle177" />
-          <circle
-             class="dot"
-             cx="1154"
-             r="1.8"
-             id="circle178" />
-          <circle
-             class="dot"
-             cx="1168"
-             r="1.8"
-             id="circle179" />
-          <circle
-             class="dot"
-             cx="1182"
-             r="1.8"
-             id="circle180" />
-          <circle
-             class="dot"
-             cx="1196"
-             r="1.8"
-             id="circle181" />
-          <circle
-             class="dot"
-             cx="1210"
-             r="1.8"
-             id="circle182" />
-          <circle
-             class="dot"
-             cx="1224"
-             r="1.8"
-             id="circle183" />
-          <circle
-             class="dot"
-             cx="1238"
-             r="1.8"
-             id="circle184" />
-          <circle
-             class="dot"
-             cx="1252"
-             r="1.8"
-             id="circle185" />
-          <circle
-             class="dot"
-             cx="1266"
-             r="1.8"
-             id="circle186" />
-          <circle
-             class="dot"
-             cx="1280"
-             r="1.8"
-             id="circle187" />
-          <circle
-             class="dot"
-             cx="1294"
-             r="1.8"
-             id="circle188" />
-          <circle
-             class="dot"
-             cx="1308"
-             r="1.8"
-             id="circle189" />
-          <circle
-             class="dot"
-             cx="1322"
-             r="1.8"
-             id="circle190" />
-          <circle
-             class="dot"
-             cx="1336"
-             r="1.8"
-             id="circle191" />
-          <circle
-             class="dot"
-             cx="1350"
-             r="1.8"
-             id="circle192" />
-          <circle
-             class="dot"
-             cx="1364"
-             r="1.8"
-             id="circle193" />
-          <circle
-             class="dot"
-             cx="1378"
-             r="1.8"
-             id="circle194" />
-          <circle
-             class="dot"
-             cx="1392"
-             r="1.8"
-             id="circle195" />
-          <circle
-             class="dot"
-             cx="1406"
-             r="1.8"
-             id="circle196" />
-          <circle
-             class="dot"
-             cx="1420"
-             r="1.8"
-             id="circle197" />
-          <circle
-             class="dot"
-             cx="1434"
-             r="1.8"
-             id="circle198" />
-          <circle
-             class="dot"
-             cx="1448"
-             r="1.8"
-             id="circle199" />
-          <circle
-             class="dot"
-             cx="1462"
-             r="1.8"
-             id="circle200" />
-          <circle
-             class="dot"
-             cx="1476"
-             r="1.8"
-             id="circle201" />
-          <circle
-             class="dot"
-             cx="1490"
-             r="1.8"
-             id="circle202" />
-        </g>
-        <g
-           transform="translate(0,330)"
-           id="g254">
-          <circle
-             class="dot"
-             cx="776"
-             r="1.8"
-             id="circle203" />
-          <circle
-             class="dot"
-             cx="790"
-             r="1.8"
-             id="circle204" />
-          <circle
-             class="dot"
-             cx="804"
-             r="1.8"
-             id="circle205" />
-          <circle
-             class="dot"
-             cx="818"
-             r="1.8"
-             id="circle206" />
-          <circle
-             class="dot"
-             cx="832"
-             r="1.8"
-             id="circle207" />
-          <circle
-             class="dot"
-             cx="846"
-             r="1.8"
-             id="circle208" />
-          <circle
-             class="dot"
-             cx="860"
-             r="1.8"
-             id="circle209" />
-          <circle
-             class="dot"
-             cx="874"
-             r="1.8"
-             id="circle210" />
-          <circle
-             class="dot"
-             cx="888"
-             r="1.8"
-             id="circle211" />
-          <circle
-             class="dot"
-             cx="902"
-             r="1.8"
-             id="circle212" />
-          <circle
-             class="dot"
-             cx="916"
-             r="1.8"
-             id="circle213" />
-          <circle
-             class="dot"
-             cx="930"
-             r="1.8"
-             id="circle214" />
-          <circle
-             class="dot"
-             cx="944"
-             r="1.8"
-             id="circle215" />
-          <circle
-             class="dot"
-             cx="958"
-             r="1.8"
-             id="circle216" />
-          <circle
-             class="dot"
-             cx="972"
-             r="1.8"
-             id="circle217" />
-          <circle
-             class="dot"
-             cx="986"
-             r="1.8"
-             id="circle218" />
-          <circle
-             class="dot"
-             cx="1e3"
-             r="1.8"
-             id="circle219" />
-          <circle
-             class="dot"
-             cx="1014"
-             r="1.8"
-             id="circle220" />
-          <circle
-             class="dot"
-             cx="1028"
-             r="1.8"
-             id="circle221" />
-          <circle
-             class="dot"
-             cx="1042"
-             r="1.8"
-             id="circle222" />
-          <circle
-             class="dot"
-             cx="1056"
-             r="1.8"
-             id="circle223" />
-          <circle
-             class="dot"
-             cx="1070"
-             r="1.8"
-             id="circle224" />
-          <circle
-             class="dot"
-             cx="1084"
-             r="1.8"
-             id="circle225" />
-          <circle
-             class="dot"
-             cx="1098"
-             r="1.8"
-             id="circle226" />
-          <circle
-             class="dot"
-             cx="1112"
-             r="1.8"
-             id="circle227" />
-          <circle
-             class="dot"
-             cx="1126"
-             r="1.8"
-             id="circle228" />
-          <circle
-             class="dot"
-             cx="1140"
-             r="1.8"
-             id="circle229" />
-          <circle
-             class="dot"
-             cx="1154"
-             r="1.8"
-             id="circle230" />
-          <circle
-             class="dot"
-             cx="1168"
-             r="1.8"
-             id="circle231" />
-          <circle
-             class="dot"
-             cx="1182"
-             r="1.8"
-             id="circle232" />
-          <circle
-             class="dot"
-             cx="1196"
-             r="1.8"
-             id="circle233" />
-          <circle
-             class="dot"
-             cx="1210"
-             r="1.8"
-             id="circle234" />
-          <circle
-             class="dot"
-             cx="1224"
-             r="1.8"
-             id="circle235" />
-          <circle
-             class="dot"
-             cx="1238"
-             r="1.8"
-             id="circle236" />
-          <circle
-             class="dot"
-             cx="1252"
-             r="1.8"
-             id="circle237" />
-          <circle
-             class="dot"
-             cx="1266"
-             r="1.8"
-             id="circle238" />
-          <circle
-             class="dot"
-             cx="1280"
-             r="1.8"
-             id="circle239" />
-          <circle
-             class="dot"
-             cx="1294"
-             r="1.8"
-             id="circle240" />
-          <circle
-             class="dot"
-             cx="1308"
-             r="1.8"
-             id="circle241" />
-          <circle
-             class="dot"
-             cx="1322"
-             r="1.8"
-             id="circle242" />
-          <circle
-             class="dot"
-             cx="1336"
-             r="1.8"
-             id="circle243" />
-          <circle
-             class="dot"
-             cx="1350"
-             r="1.8"
-             id="circle244" />
-          <circle
-             class="dot"
-             cx="1364"
-             r="1.8"
-             id="circle245" />
-          <circle
-             class="dot"
-             cx="1378"
-             r="1.8"
-             id="circle246" />
-          <circle
-             class="dot"
-             cx="1392"
-             r="1.8"
-             id="circle247" />
-          <circle
-             class="dot"
-             cx="1406"
-             r="1.8"
-             id="circle248" />
-          <circle
-             class="dot"
-             cx="1420"
-             r="1.8"
-             id="circle249" />
-          <circle
-             class="dot"
-             cx="1434"
-             r="1.8"
-             id="circle250" />
-          <circle
-             class="dot"
-             cx="1448"
-             r="1.8"
-             id="circle251" />
-          <circle
-             class="dot"
-             cx="1462"
-             r="1.8"
-             id="circle252" />
-          <circle
-             class="dot"
-             cx="1476"
-             r="1.8"
-             id="circle253" />
-          <circle
-             class="dot"
-             cx="1490"
-             r="1.8"
-             id="circle254" />
-        </g>
-        <g
-           transform="translate(0,385)"
-           id="g306">
-          <circle
-             class="dot"
-             cx="776"
-             r="1.8"
-             id="circle255" />
-          <circle
-             class="dot"
-             cx="790"
-             r="1.8"
-             id="circle256" />
-          <circle
-             class="dot"
-             cx="804"
-             r="1.8"
-             id="circle257" />
-          <circle
-             class="dot"
-             cx="818"
-             r="1.8"
-             id="circle258" />
-          <circle
-             class="dot"
-             cx="832"
-             r="1.8"
-             id="circle259" />
-          <circle
-             class="dot"
-             cx="846"
-             r="1.8"
-             id="circle260" />
-          <circle
-             class="dot"
-             cx="860"
-             r="1.8"
-             id="circle261" />
-          <circle
-             class="dot"
-             cx="874"
-             r="1.8"
-             id="circle262" />
-          <circle
-             class="dot"
-             cx="888"
-             r="1.8"
-             id="circle263" />
-          <circle
-             class="dot"
-             cx="902"
-             r="1.8"
-             id="circle264" />
-          <circle
-             class="dot"
-             cx="916"
-             r="1.8"
-             id="circle265" />
-          <circle
-             class="dot"
-             cx="930"
-             r="1.8"
-             id="circle266" />
-          <circle
-             class="dot"
-             cx="944"
-             r="1.8"
-             id="circle267" />
-          <circle
-             class="dot"
-             cx="958"
-             r="1.8"
-             id="circle268" />
-          <circle
-             class="dot"
-             cx="972"
-             r="1.8"
-             id="circle269" />
-          <circle
-             class="dot"
-             cx="986"
-             r="1.8"
-             id="circle270" />
-          <circle
-             class="dot"
-             cx="1e3"
-             r="1.8"
-             id="circle271" />
-          <circle
-             class="dot"
-             cx="1014"
-             r="1.8"
-             id="circle272" />
-          <circle
-             class="dot"
-             cx="1028"
-             r="1.8"
-             id="circle273" />
-          <circle
-             class="dot"
-             cx="1042"
-             r="1.8"
-             id="circle274" />
-          <circle
-             class="dot"
-             cx="1056"
-             r="1.8"
-             id="circle275" />
-          <circle
-             class="dot"
-             cx="1070"
-             r="1.8"
-             id="circle276" />
-          <circle
-             class="dot"
-             cx="1084"
-             r="1.8"
-             id="circle277" />
-          <circle
-             class="dot"
-             cx="1098"
-             r="1.8"
-             id="circle278" />
-          <circle
-             class="dot"
-             cx="1112"
-             r="1.8"
-             id="circle279" />
-          <circle
-             class="dot"
-             cx="1126"
-             r="1.8"
-             id="circle280" />
-          <circle
-             class="dot"
-             cx="1140"
-             r="1.8"
-             id="circle281" />
-          <circle
-             class="dot"
-             cx="1154"
-             r="1.8"
-             id="circle282" />
-          <circle
-             class="dot"
-             cx="1168"
-             r="1.8"
-             id="circle283" />
-          <circle
-             class="dot"
-             cx="1182"
-             r="1.8"
-             id="circle284" />
-          <circle
-             class="dot"
-             cx="1196"
-             r="1.8"
-             id="circle285" />
-          <circle
-             class="dot"
-             cx="1210"
-             r="1.8"
-             id="circle286" />
-          <circle
-             class="dot"
-             cx="1224"
-             r="1.8"
-             id="circle287" />
-          <circle
-             class="dot"
-             cx="1238"
-             r="1.8"
-             id="circle288" />
-          <circle
-             class="dot"
-             cx="1252"
-             r="1.8"
-             id="circle289" />
-          <circle
-             class="dot"
-             cx="1266"
-             r="1.8"
-             id="circle290" />
-          <circle
-             class="dot"
-             cx="1280"
-             r="1.8"
-             id="circle291" />
-          <circle
-             class="dot"
-             cx="1294"
-             r="1.8"
-             id="circle292" />
-          <circle
-             class="dot"
-             cx="1308"
-             r="1.8"
-             id="circle293" />
-          <circle
-             class="dot"
-             cx="1322"
-             r="1.8"
-             id="circle294" />
-          <circle
-             class="dot"
-             cx="1336"
-             r="1.8"
-             id="circle295" />
-          <circle
-             class="dot"
-             cx="1350"
-             r="1.8"
-             id="circle296" />
-          <circle
-             class="dot"
-             cx="1364"
-             r="1.8"
-             id="circle297" />
-          <circle
-             class="dot"
-             cx="1378"
-             r="1.8"
-             id="circle298" />
-          <circle
-             class="dot"
-             cx="1392"
-             r="1.8"
-             id="circle299" />
-          <circle
-             class="dot"
-             cx="1406"
-             r="1.8"
-             id="circle300" />
-          <circle
-             class="dot"
-             cx="1420"
-             r="1.8"
-             id="circle301" />
-          <circle
-             class="dot"
-             cx="1434"
-             r="1.8"
-             id="circle302" />
-          <circle
-             class="dot"
-             cx="1448"
-             r="1.8"
-             id="circle303" />
-          <circle
-             class="dot"
-             cx="1462"
-             r="1.8"
-             id="circle304" />
-          <circle
-             class="dot"
-             cx="1476"
-             r="1.8"
-             id="circle305" />
-          <circle
-             class="dot"
-             cx="1490"
-             r="1.8"
-             id="circle306" />
-        </g>
-        <g
-           transform="translate(0,440)"
-           id="g358">
-          <circle
-             class="dot"
-             cx="776"
-             r="1.8"
-             id="circle307" />
-          <circle
-             class="dot"
-             cx="790"
-             r="1.8"
-             id="circle308" />
-          <circle
-             class="dot"
-             cx="804"
-             r="1.8"
-             id="circle309" />
-          <circle
-             class="dot"
-             cx="818"
-             r="1.8"
-             id="circle310" />
-          <circle
-             class="dot"
-             cx="832"
-             r="1.8"
-             id="circle311" />
-          <circle
-             class="dot"
-             cx="846"
-             r="1.8"
-             id="circle312" />
-          <circle
-             class="dot"
-             cx="860"
-             r="1.8"
-             id="circle313" />
-          <circle
-             class="dot"
-             cx="874"
-             r="1.8"
-             id="circle314" />
-          <circle
-             class="dot"
-             cx="888"
-             r="1.8"
-             id="circle315" />
-          <circle
-             class="dot"
-             cx="902"
-             r="1.8"
-             id="circle316" />
-          <circle
-             class="dot"
-             cx="916"
-             r="1.8"
-             id="circle317" />
-          <circle
-             class="dot"
-             cx="930"
-             r="1.8"
-             id="circle318" />
-          <circle
-             class="dot"
-             cx="944"
-             r="1.8"
-             id="circle319" />
-          <circle
-             class="dot"
-             cx="958"
-             r="1.8"
-             id="circle320" />
-          <circle
-             class="dot"
-             cx="972"
-             r="1.8"
-             id="circle321" />
-          <circle
-             class="dot"
-             cx="986"
-             r="1.8"
-             id="circle322" />
-          <circle
-             class="dot"
-             cx="1e3"
-             r="1.8"
-             id="circle323" />
-          <circle
-             class="dot"
-             cx="1014"
-             r="1.8"
-             id="circle324" />
-          <circle
-             class="dot"
-             cx="1028"
-             r="1.8"
-             id="circle325" />
-          <circle
-             class="dot"
-             cx="1042"
-             r="1.8"
-             id="circle326" />
-          <circle
-             class="dot"
-             cx="1056"
-             r="1.8"
-             id="circle327" />
-          <circle
-             class="dot"
-             cx="1070"
-             r="1.8"
-             id="circle328" />
-          <circle
-             class="dot"
-             cx="1084"
-             r="1.8"
-             id="circle329" />
-          <circle
-             class="dot"
-             cx="1098"
-             r="1.8"
-             id="circle330" />
-          <circle
-             class="dot"
-             cx="1112"
-             r="1.8"
-             id="circle331" />
-          <circle
-             class="dot"
-             cx="1126"
-             r="1.8"
-             id="circle332" />
-          <circle
-             class="dot"
-             cx="1140"
-             r="1.8"
-             id="circle333" />
-          <circle
-             class="dot"
-             cx="1154"
-             r="1.8"
-             id="circle334" />
-          <circle
-             class="dot"
-             cx="1168"
-             r="1.8"
-             id="circle335" />
-          <circle
-             class="dot"
-             cx="1182"
-             r="1.8"
-             id="circle336" />
-          <circle
-             class="dot"
-             cx="1196"
-             r="1.8"
-             id="circle337" />
-          <circle
-             class="dot"
-             cx="1210"
-             r="1.8"
-             id="circle338" />
-          <circle
-             class="dot"
-             cx="1224"
-             r="1.8"
-             id="circle339" />
-          <circle
-             class="dot"
-             cx="1238"
-             r="1.8"
-             id="circle340" />
-          <circle
-             class="dot"
-             cx="1252"
-             r="1.8"
-             id="circle341" />
-          <circle
-             class="dot"
-             cx="1266"
-             r="1.8"
-             id="circle342" />
-          <circle
-             class="dot"
-             cx="1280"
-             r="1.8"
-             id="circle343" />
-          <circle
-             class="dot"
-             cx="1294"
-             r="1.8"
-             id="circle344" />
-          <circle
-             class="dot"
-             cx="1308"
-             r="1.8"
-             id="circle345" />
-          <circle
-             class="dot"
-             cx="1322"
-             r="1.8"
-             id="circle346" />
-          <circle
-             class="dot"
-             cx="1336"
-             r="1.8"
-             id="circle347" />
-          <circle
-             class="dot"
-             cx="1350"
-             r="1.8"
-             id="circle348" />
-          <circle
-             class="dot"
-             cx="1364"
-             r="1.8"
-             id="circle349" />
-          <circle
-             class="dot"
-             cx="1378"
-             r="1.8"
-             id="circle350" />
-          <circle
-             class="dot"
-             cx="1392"
-             r="1.8"
-             id="circle351" />
-          <circle
-             class="dot"
-             cx="1406"
-             r="1.8"
-             id="circle352" />
-          <circle
-             class="dot"
-             cx="1420"
-             r="1.8"
-             id="circle353" />
-          <circle
-             class="dot"
-             cx="1434"
-             r="1.8"
-             id="circle354" />
-          <circle
-             class="dot"
-             cx="1448"
-             r="1.8"
-             id="circle355" />
-          <circle
-             class="dot"
-             cx="1462"
-             r="1.8"
-             id="circle356" />
-          <circle
-             class="dot"
-             cx="1476"
-             r="1.8"
-             id="circle357" />
-          <circle
-             class="dot"
-             cx="1490"
-             r="1.8"
-             id="circle358" />
-        </g>
-        <g
-           transform="translate(0,495)"
-           id="g410">
-          <circle
-             class="dot"
-             cx="776"
-             r="1.8"
-             id="circle359" />
-          <circle
-             class="dot"
-             cx="790"
-             r="1.8"
-             id="circle360" />
-          <circle
-             class="dot"
-             cx="804"
-             r="1.8"
-             id="circle361" />
-          <circle
-             class="dot"
-             cx="818"
-             r="1.8"
-             id="circle362" />
-          <circle
-             class="dot"
-             cx="832"
-             r="1.8"
-             id="circle363" />
-          <circle
-             class="dot"
-             cx="846"
-             r="1.8"
-             id="circle364" />
-          <circle
-             class="dot"
-             cx="860"
-             r="1.8"
-             id="circle365" />
-          <circle
-             class="dot"
-             cx="874"
-             r="1.8"
-             id="circle366" />
-          <circle
-             class="dot"
-             cx="888"
-             r="1.8"
-             id="circle367" />
-          <circle
-             class="dot"
-             cx="902"
-             r="1.8"
-             id="circle368" />
-          <circle
-             class="dot"
-             cx="916"
-             r="1.8"
-             id="circle369" />
-          <circle
-             class="dot"
-             cx="930"
-             r="1.8"
-             id="circle370" />
-          <circle
-             class="dot"
-             cx="944"
-             r="1.8"
-             id="circle371" />
-          <circle
-             class="dot"
-             cx="958"
-             r="1.8"
-             id="circle372" />
-          <circle
-             class="dot"
-             cx="972"
-             r="1.8"
-             id="circle373" />
-          <circle
-             class="dot"
-             cx="986"
-             r="1.8"
-             id="circle374" />
-          <circle
-             class="dot"
-             cx="1e3"
-             r="1.8"
-             id="circle375" />
-          <circle
-             class="dot"
-             cx="1014"
-             r="1.8"
-             id="circle376" />
-          <circle
-             class="dot"
-             cx="1028"
-             r="1.8"
-             id="circle377" />
-          <circle
-             class="dot"
-             cx="1042"
-             r="1.8"
-             id="circle378" />
-          <circle
-             class="dot"
-             cx="1056"
-             r="1.8"
-             id="circle379" />
-          <circle
-             class="dot"
-             cx="1070"
-             r="1.8"
-             id="circle380" />
-          <circle
-             class="dot"
-             cx="1084"
-             r="1.8"
-             id="circle381" />
-          <circle
-             class="dot"
-             cx="1098"
-             r="1.8"
-             id="circle382" />
-          <circle
-             class="dot"
-             cx="1112"
-             r="1.8"
-             id="circle383" />
-          <circle
-             class="dot"
-             cx="1126"
-             r="1.8"
-             id="circle384" />
-          <circle
-             class="dot"
-             cx="1140"
-             r="1.8"
-             id="circle385" />
-          <circle
-             class="dot"
-             cx="1154"
-             r="1.8"
-             id="circle386" />
-          <circle
-             class="dot"
-             cx="1168"
-             r="1.8"
-             id="circle387" />
-          <circle
-             class="dot"
-             cx="1182"
-             r="1.8"
-             id="circle388" />
-          <circle
-             class="dot"
-             cx="1196"
-             r="1.8"
-             id="circle389" />
-          <circle
-             class="dot"
-             cx="1210"
-             r="1.8"
-             id="circle390" />
-          <circle
-             class="dot"
-             cx="1224"
-             r="1.8"
-             id="circle391" />
-          <circle
-             class="dot"
-             cx="1238"
-             r="1.8"
-             id="circle392" />
-          <circle
-             class="dot"
-             cx="1252"
-             r="1.8"
-             id="circle393" />
-          <circle
-             class="dot"
-             cx="1266"
-             r="1.8"
-             id="circle394" />
-          <circle
-             class="dot"
-             cx="1280"
-             r="1.8"
-             id="circle395" />
-          <circle
-             class="dot"
-             cx="1294"
-             r="1.8"
-             id="circle396" />
-          <circle
-             class="dot"
-             cx="1308"
-             r="1.8"
-             id="circle397" />
-          <circle
-             class="dot"
-             cx="1322"
-             r="1.8"
-             id="circle398" />
-          <circle
-             class="dot"
-             cx="1336"
-             r="1.8"
-             id="circle399" />
-          <circle
-             class="dot"
-             cx="1350"
-             r="1.8"
-             id="circle400" />
-          <circle
-             class="dot"
-             cx="1364"
-             r="1.8"
-             id="circle401" />
-          <circle
-             class="dot"
-             cx="1378"
-             r="1.8"
-             id="circle402" />
-          <circle
-             class="dot"
-             cx="1392"
-             r="1.8"
-             id="circle403" />
-          <circle
-             class="dot"
-             cx="1406"
-             r="1.8"
-             id="circle404" />
-          <circle
-             class="dot"
-             cx="1420"
-             r="1.8"
-             id="circle405" />
-          <circle
-             class="dot"
-             cx="1434"
-             r="1.8"
-             id="circle406" />
-          <circle
-             class="dot"
-             cx="1448"
-             r="1.8"
-             id="circle407" />
-          <circle
-             class="dot"
-             cx="1462"
-             r="1.8"
-             id="circle408" />
-          <circle
-             class="dot"
-             cx="1476"
-             r="1.8"
-             id="circle409" />
-          <circle
-             class="dot"
-             cx="1490"
-             r="1.8"
-             id="circle410" />
-        </g>
-        <g
-           transform="translate(0,550)"
-           id="g462">
-          <circle
-             class="dot"
-             cx="776"
-             r="1.8"
-             id="circle411" />
-          <circle
-             class="dot"
-             cx="790"
-             r="1.8"
-             id="circle412" />
-          <circle
-             class="dot"
-             cx="804"
-             r="1.8"
-             id="circle413" />
-          <circle
-             class="dot"
-             cx="818"
-             r="1.8"
-             id="circle414" />
-          <circle
-             class="dot"
-             cx="832"
-             r="1.8"
-             id="circle415" />
-          <circle
-             class="dot"
-             cx="846"
-             r="1.8"
-             id="circle416" />
-          <circle
-             class="dot"
-             cx="860"
-             r="1.8"
-             id="circle417" />
-          <circle
-             class="dot"
-             cx="874"
-             r="1.8"
-             id="circle418" />
-          <circle
-             class="dot"
-             cx="888"
-             r="1.8"
-             id="circle419" />
-          <circle
-             class="dot"
-             cx="902"
-             r="1.8"
-             id="circle420" />
-          <circle
-             class="dot"
-             cx="916"
-             r="1.8"
-             id="circle421" />
-          <circle
-             class="dot"
-             cx="930"
-             r="1.8"
-             id="circle422" />
-          <circle
-             class="dot"
-             cx="944"
-             r="1.8"
-             id="circle423" />
-          <circle
-             class="dot"
-             cx="958"
-             r="1.8"
-             id="circle424" />
-          <circle
-             class="dot"
-             cx="972"
-             r="1.8"
-             id="circle425" />
-          <circle
-             class="dot"
-             cx="986"
-             r="1.8"
-             id="circle426" />
-          <circle
-             class="dot"
-             cx="1e3"
-             r="1.8"
-             id="circle427" />
-          <circle
-             class="dot"
-             cx="1014"
-             r="1.8"
-             id="circle428" />
-          <circle
-             class="dot"
-             cx="1028"
-             r="1.8"
-             id="circle429" />
-          <circle
-             class="dot"
-             cx="1042"
-             r="1.8"
-             id="circle430" />
-          <circle
-             class="dot"
-             cx="1056"
-             r="1.8"
-             id="circle431" />
-          <circle
-             class="dot"
-             cx="1070"
-             r="1.8"
-             id="circle432" />
-          <circle
-             class="dot"
-             cx="1084"
-             r="1.8"
-             id="circle433" />
-          <circle
-             class="dot"
-             cx="1098"
-             r="1.8"
-             id="circle434" />
-          <circle
-             class="dot"
-             cx="1112"
-             r="1.8"
-             id="circle435" />
-          <circle
-             class="dot"
-             cx="1126"
-             r="1.8"
-             id="circle436" />
-          <circle
-             class="dot"
-             cx="1140"
-             r="1.8"
-             id="circle437" />
-          <circle
-             class="dot"
-             cx="1154"
-             r="1.8"
-             id="circle438" />
-          <circle
-             class="dot"
-             cx="1168"
-             r="1.8"
-             id="circle439" />
-          <circle
-             class="dot"
-             cx="1182"
-             r="1.8"
-             id="circle440" />
-          <circle
-             class="dot"
-             cx="1196"
-             r="1.8"
-             id="circle441" />
-          <circle
-             class="dot"
-             cx="1210"
-             r="1.8"
-             id="circle442" />
-          <circle
-             class="dot"
-             cx="1224"
-             r="1.8"
-             id="circle443" />
-          <circle
-             class="dot"
-             cx="1238"
-             r="1.8"
-             id="circle444" />
-          <circle
-             class="dot"
-             cx="1252"
-             r="1.8"
-             id="circle445" />
-          <circle
-             class="dot"
-             cx="1266"
-             r="1.8"
-             id="circle446" />
-          <circle
-             class="dot"
-             cx="1280"
-             r="1.8"
-             id="circle447" />
-          <circle
-             class="dot"
-             cx="1294"
-             r="1.8"
-             id="circle448" />
-          <circle
-             class="dot"
-             cx="1308"
-             r="1.8"
-             id="circle449" />
-          <circle
-             class="dot"
-             cx="1322"
-             r="1.8"
-             id="circle450" />
-          <circle
-             class="dot"
-             cx="1336"
-             r="1.8"
-             id="circle451" />
-          <circle
-             class="dot"
-             cx="1350"
-             r="1.8"
-             id="circle452" />
-          <circle
-             class="dot"
-             cx="1364"
-             r="1.8"
-             id="circle453" />
-          <circle
-             class="dot"
-             cx="1378"
-             r="1.8"
-             id="circle454" />
-          <circle
-             class="dot"
-             cx="1392"
-             r="1.8"
-             id="circle455" />
-          <circle
-             class="dot"
-             cx="1406"
-             r="1.8"
-             id="circle456" />
-          <circle
-             class="dot"
-             cx="1420"
-             r="1.8"
-             id="circle457" />
-          <circle
-             class="dot"
-             cx="1434"
-             r="1.8"
-             id="circle458" />
-          <circle
-             class="dot"
-             cx="1448"
-             r="1.8"
-             id="circle459" />
-          <circle
-             class="dot"
-             cx="1462"
-             r="1.8"
-             id="circle460" />
-          <circle
-             class="dot"
-             cx="1476"
-             r="1.8"
-             id="circle461" />
-          <circle
-             class="dot"
-             cx="1490"
-             r="1.8"
-             id="circle462" />
-        </g>
-        <g
-           transform="translate(0,605)"
-           id="g514">
-          <circle
-             class="dot"
-             cx="776"
-             r="1.8"
-             id="circle463" />
-          <circle
-             class="dot"
-             cx="790"
-             r="1.8"
-             id="circle464" />
-          <circle
-             class="dot"
-             cx="804"
-             r="1.8"
-             id="circle465" />
-          <circle
-             class="dot"
-             cx="818"
-             r="1.8"
-             id="circle466" />
-          <circle
-             class="dot"
-             cx="832"
-             r="1.8"
-             id="circle467" />
-          <circle
-             class="dot"
-             cx="846"
-             r="1.8"
-             id="circle468" />
-          <circle
-             class="dot"
-             cx="860"
-             r="1.8"
-             id="circle469" />
-          <circle
-             class="dot"
-             cx="874"
-             r="1.8"
-             id="circle470" />
-          <circle
-             class="dot"
-             cx="888"
-             r="1.8"
-             id="circle471" />
-          <circle
-             class="dot"
-             cx="902"
-             r="1.8"
-             id="circle472" />
-          <circle
-             class="dot"
-             cx="916"
-             r="1.8"
-             id="circle473" />
-          <circle
-             class="dot"
-             cx="930"
-             r="1.8"
-             id="circle474" />
-          <circle
-             class="dot"
-             cx="944"
-             r="1.8"
-             id="circle475" />
-          <circle
-             class="dot"
-             cx="958"
-             r="1.8"
-             id="circle476" />
-          <circle
-             class="dot"
-             cx="972"
-             r="1.8"
-             id="circle477" />
-          <circle
-             class="dot"
-             cx="986"
-             r="1.8"
-             id="circle478" />
-          <circle
-             class="dot"
-             cx="1e3"
-             r="1.8"
-             id="circle479" />
-          <circle
-             class="dot"
-             cx="1014"
-             r="1.8"
-             id="circle480" />
-          <circle
-             class="dot"
-             cx="1028"
-             r="1.8"
-             id="circle481" />
-          <circle
-             class="dot"
-             cx="1042"
-             r="1.8"
-             id="circle482" />
-          <circle
-             class="dot"
-             cx="1056"
-             r="1.8"
-             id="circle483" />
-          <circle
-             class="dot"
-             cx="1070"
-             r="1.8"
-             id="circle484" />
-          <circle
-             class="dot"
-             cx="1084"
-             r="1.8"
-             id="circle485" />
-          <circle
-             class="dot"
-             cx="1098"
-             r="1.8"
-             id="circle486" />
-          <circle
-             class="dot"
-             cx="1112"
-             r="1.8"
-             id="circle487" />
-          <circle
-             class="dot"
-             cx="1126"
-             r="1.8"
-             id="circle488" />
-          <circle
-             class="dot"
-             cx="1140"
-             r="1.8"
-             id="circle489" />
-          <circle
-             class="dot"
-             cx="1154"
-             r="1.8"
-             id="circle490" />
-          <circle
-             class="dot"
-             cx="1168"
-             r="1.8"
-             id="circle491" />
-          <circle
-             class="dot"
-             cx="1182"
-             r="1.8"
-             id="circle492" />
-          <circle
-             class="dot"
-             cx="1196"
-             r="1.8"
-             id="circle493" />
-          <circle
-             class="dot"
-             cx="1210"
-             r="1.8"
-             id="circle494" />
-          <circle
-             class="dot"
-             cx="1224"
-             r="1.8"
-             id="circle495" />
-          <circle
-             class="dot"
-             cx="1238"
-             r="1.8"
-             id="circle496" />
-          <circle
-             class="dot"
-             cx="1252"
-             r="1.8"
-             id="circle497" />
-          <circle
-             class="dot"
-             cx="1266"
-             r="1.8"
-             id="circle498" />
-          <circle
-             class="dot"
-             cx="1280"
-             r="1.8"
-             id="circle499" />
-          <circle
-             class="dot"
-             cx="1294"
-             r="1.8"
-             id="circle500" />
-          <circle
-             class="dot"
-             cx="1308"
-             r="1.8"
-             id="circle501" />
-          <circle
-             class="dot"
-             cx="1322"
-             r="1.8"
-             id="circle502" />
-          <circle
-             class="dot"
-             cx="1336"
-             r="1.8"
-             id="circle503" />
-          <circle
-             class="dot"
-             cx="1350"
-             r="1.8"
-             id="circle504" />
-          <circle
-             class="dot"
-             cx="1364"
-             r="1.8"
-             id="circle505" />
-          <circle
-             class="dot"
-             cx="1378"
-             r="1.8"
-             id="circle506" />
-          <circle
-             class="dot"
-             cx="1392"
-             r="1.8"
-             id="circle507" />
-          <circle
-             class="dot"
-             cx="1406"
-             r="1.8"
-             id="circle508" />
-          <circle
-             class="dot"
-             cx="1420"
-             r="1.8"
-             id="circle509" />
-          <circle
-             class="dot"
-             cx="1434"
-             r="1.8"
-             id="circle510" />
-          <circle
-             class="dot"
-             cx="1448"
-             r="1.8"
-             id="circle511" />
-          <circle
-             class="dot"
-             cx="1462"
-             r="1.8"
-             id="circle512" />
-          <circle
-             class="dot"
-             cx="1476"
-             r="1.8"
-             id="circle513" />
-          <circle
-             class="dot"
-             cx="1490"
-             r="1.8"
-             id="circle514" />
-        </g>
-        <g
-           transform="translate(0,660)"
-           id="g566">
-          <circle
-             class="dot"
-             cx="776"
-             r="1.8"
-             id="circle515" />
-          <circle
-             class="dot"
-             cx="790"
-             r="1.8"
-             id="circle516" />
-          <circle
-             class="dot"
-             cx="804"
-             r="1.8"
-             id="circle517" />
-          <circle
-             class="dot"
-             cx="818"
-             r="1.8"
-             id="circle518" />
-          <circle
-             class="dot"
-             cx="832"
-             r="1.8"
-             id="circle519" />
-          <circle
-             class="dot"
-             cx="846"
-             r="1.8"
-             id="circle520" />
-          <circle
-             class="dot"
-             cx="860"
-             r="1.8"
-             id="circle521" />
-          <circle
-             class="dot"
-             cx="874"
-             r="1.8"
-             id="circle522" />
-          <circle
-             class="dot"
-             cx="888"
-             r="1.8"
-             id="circle523" />
-          <circle
-             class="dot"
-             cx="902"
-             r="1.8"
-             id="circle524" />
-          <circle
-             class="dot"
-             cx="916"
-             r="1.8"
-             id="circle525" />
-          <circle
-             class="dot"
-             cx="930"
-             r="1.8"
-             id="circle526" />
-          <circle
-             class="dot"
-             cx="944"
-             r="1.8"
-             id="circle527" />
-          <circle
-             class="dot"
-             cx="958"
-             r="1.8"
-             id="circle528" />
-          <circle
-             class="dot"
-             cx="972"
-             r="1.8"
-             id="circle529" />
-          <circle
-             class="dot"
-             cx="986"
-             r="1.8"
-             id="circle530" />
-          <circle
-             class="dot"
-             cx="1e3"
-             r="1.8"
-             id="circle531" />
-          <circle
-             class="dot"
-             cx="1014"
-             r="1.8"
-             id="circle532" />
-          <circle
-             class="dot"
-             cx="1028"
-             r="1.8"
-             id="circle533" />
-          <circle
-             class="dot"
-             cx="1042"
-             r="1.8"
-             id="circle534" />
-          <circle
-             class="dot"
-             cx="1056"
-             r="1.8"
-             id="circle535" />
-          <circle
-             class="dot"
-             cx="1070"
-             r="1.8"
-             id="circle536" />
-          <circle
-             class="dot"
-             cx="1084"
-             r="1.8"
-             id="circle537" />
-          <circle
-             class="dot"
-             cx="1098"
-             r="1.8"
-             id="circle538" />
-          <circle
-             class="dot"
-             cx="1112"
-             r="1.8"
-             id="circle539" />
-          <circle
-             class="dot"
-             cx="1126"
-             r="1.8"
-             id="circle540" />
-          <circle
-             class="dot"
-             cx="1140"
-             r="1.8"
-             id="circle541" />
-          <circle
-             class="dot"
-             cx="1154"
-             r="1.8"
-             id="circle542" />
-          <circle
-             class="dot"
-             cx="1168"
-             r="1.8"
-             id="circle543" />
-          <circle
-             class="dot"
-             cx="1182"
-             r="1.8"
-             id="circle544" />
-          <circle
-             class="dot"
-             cx="1196"
-             r="1.8"
-             id="circle545" />
-          <circle
-             class="dot"
-             cx="1210"
-             r="1.8"
-             id="circle546" />
-          <circle
-             class="dot"
-             cx="1224"
-             r="1.8"
-             id="circle547" />
-          <circle
-             class="dot"
-             cx="1238"
-             r="1.8"
-             id="circle548" />
-          <circle
-             class="dot"
-             cx="1252"
-             r="1.8"
-             id="circle549" />
-          <circle
-             class="dot"
-             cx="1266"
-             r="1.8"
-             id="circle550" />
-          <circle
-             class="dot"
-             cx="1280"
-             r="1.8"
-             id="circle551" />
-          <circle
-             class="dot"
-             cx="1294"
-             r="1.8"
-             id="circle552" />
-          <circle
-             class="dot"
-             cx="1308"
-             r="1.8"
-             id="circle553" />
-          <circle
-             class="dot"
-             cx="1322"
-             r="1.8"
-             id="circle554" />
-          <circle
-             class="dot"
-             cx="1336"
-             r="1.8"
-             id="circle555" />
-          <circle
-             class="dot"
-             cx="1350"
-             r="1.8"
-             id="circle556" />
-          <circle
-             class="dot"
-             cx="1364"
-             r="1.8"
-             id="circle557" />
-          <circle
-             class="dot"
-             cx="1378"
-             r="1.8"
-             id="circle558" />
-          <circle
-             class="dot"
-             cx="1392"
-             r="1.8"
-             id="circle559" />
-          <circle
-             class="dot"
-             cx="1406"
-             r="1.8"
-             id="circle560" />
-          <circle
-             class="dot"
-             cx="1420"
-             r="1.8"
-             id="circle561" />
-          <circle
-             class="dot"
-             cx="1434"
-             r="1.8"
-             id="circle562" />
-          <circle
-             class="dot"
-             cx="1448"
-             r="1.8"
-             id="circle563" />
-          <circle
-             class="dot"
-             cx="1462"
-             r="1.8"
-             id="circle564" />
-          <circle
-             class="dot"
-             cx="1476"
-             r="1.8"
-             id="circle565" />
-          <circle
-             class="dot"
-             cx="1490"
-             r="1.8"
-             id="circle566" />
-        </g>
-        <g
-           transform="translate(0,715)"
-           id="g618">
-          <circle
-             class="dot"
-             cx="776"
-             r="1.8"
-             id="circle567" />
-          <circle
-             class="dot"
-             cx="790"
-             r="1.8"
-             id="circle568" />
-          <circle
-             class="dot"
-             cx="804"
-             r="1.8"
-             id="circle569" />
-          <circle
-             class="dot"
-             cx="818"
-             r="1.8"
-             id="circle570" />
-          <circle
-             class="dot"
-             cx="832"
-             r="1.8"
-             id="circle571" />
-          <circle
-             class="dot"
-             cx="846"
-             r="1.8"
-             id="circle572" />
-          <circle
-             class="dot"
-             cx="860"
-             r="1.8"
-             id="circle573" />
-          <circle
-             class="dot"
-             cx="874"
-             r="1.8"
-             id="circle574" />
-          <circle
-             class="dot"
-             cx="888"
-             r="1.8"
-             id="circle575" />
-          <circle
-             class="dot"
-             cx="902"
-             r="1.8"
-             id="circle576" />
-          <circle
-             class="dot"
-             cx="916"
-             r="1.8"
-             id="circle577" />
-          <circle
-             class="dot"
-             cx="930"
-             r="1.8"
-             id="circle578" />
-          <circle
-             class="dot"
-             cx="944"
-             r="1.8"
-             id="circle579" />
-          <circle
-             class="dot"
-             cx="958"
-             r="1.8"
-             id="circle580" />
-          <circle
-             class="dot"
-             cx="972"
-             r="1.8"
-             id="circle581" />
-          <circle
-             class="dot"
-             cx="986"
-             r="1.8"
-             id="circle582" />
-          <circle
-             class="dot"
-             cx="1e3"
-             r="1.8"
-             id="circle583" />
-          <circle
-             class="dot"
-             cx="1014"
-             r="1.8"
-             id="circle584" />
-          <circle
-             class="dot"
-             cx="1028"
-             r="1.8"
-             id="circle585" />
-          <circle
-             class="dot"
-             cx="1042"
-             r="1.8"
-             id="circle586" />
-          <circle
-             class="dot"
-             cx="1056"
-             r="1.8"
-             id="circle587" />
-          <circle
-             class="dot"
-             cx="1070"
-             r="1.8"
-             id="circle588" />
-          <circle
-             class="dot"
-             cx="1084"
-             r="1.8"
-             id="circle589" />
-          <circle
-             class="dot"
-             cx="1098"
-             r="1.8"
-             id="circle590" />
-          <circle
-             class="dot"
-             cx="1112"
-             r="1.8"
-             id="circle591" />
-          <circle
-             class="dot"
-             cx="1126"
-             r="1.8"
-             id="circle592" />
-          <circle
-             class="dot"
-             cx="1140"
-             r="1.8"
-             id="circle593" />
-          <circle
-             class="dot"
-             cx="1154"
-             r="1.8"
-             id="circle594" />
-          <circle
-             class="dot"
-             cx="1168"
-             r="1.8"
-             id="circle595" />
-          <circle
-             class="dot"
-             cx="1182"
-             r="1.8"
-             id="circle596" />
-          <circle
-             class="dot"
-             cx="1196"
-             r="1.8"
-             id="circle597" />
-          <circle
-             class="dot"
-             cx="1210"
-             r="1.8"
-             id="circle598" />
-          <circle
-             class="dot"
-             cx="1224"
-             r="1.8"
-             id="circle599" />
-          <circle
-             class="dot"
-             cx="1238"
-             r="1.8"
-             id="circle600" />
-          <circle
-             class="dot"
-             cx="1252"
-             r="1.8"
-             id="circle601" />
-          <circle
-             class="dot"
-             cx="1266"
-             r="1.8"
-             id="circle602" />
-          <circle
-             class="dot"
-             cx="1280"
-             r="1.8"
-             id="circle603" />
-          <circle
-             class="dot"
-             cx="1294"
-             r="1.8"
-             id="circle604" />
-          <circle
-             class="dot"
-             cx="1308"
-             r="1.8"
-             id="circle605" />
-          <circle
-             class="dot"
-             cx="1322"
-             r="1.8"
-             id="circle606" />
-          <circle
-             class="dot"
-             cx="1336"
-             r="1.8"
-             id="circle607" />
-          <circle
-             class="dot"
-             cx="1350"
-             r="1.8"
-             id="circle608" />
-          <circle
-             class="dot"
-             cx="1364"
-             r="1.8"
-             id="circle609" />
-          <circle
-             class="dot"
-             cx="1378"
-             r="1.8"
-             id="circle610" />
-          <circle
-             class="dot"
-             cx="1392"
-             r="1.8"
-             id="circle611" />
-          <circle
-             class="dot"
-             cx="1406"
-             r="1.8"
-             id="circle612" />
-          <circle
-             class="dot"
-             cx="1420"
-             r="1.8"
-             id="circle613" />
-          <circle
-             class="dot"
-             cx="1434"
-             r="1.8"
-             id="circle614" />
-          <circle
-             class="dot"
-             cx="1448"
-             r="1.8"
-             id="circle615" />
-          <circle
-             class="dot"
-             cx="1462"
-             r="1.8"
-             id="circle616" />
-          <circle
-             class="dot"
-             cx="1476"
-             r="1.8"
-             id="circle617" />
-          <circle
-             class="dot"
-             cx="1490"
-             r="1.8"
-             id="circle618" />
-        </g>
-        <g
-           transform="translate(0,770)"
-           id="g670">
-          <circle
-             class="dot"
-             cx="776"
-             r="1.8"
-             id="circle619" />
-          <circle
-             class="dot"
-             cx="790"
-             r="1.8"
-             id="circle620" />
-          <circle
-             class="dot"
-             cx="804"
-             r="1.8"
-             id="circle621" />
-          <circle
-             class="dot"
-             cx="818"
-             r="1.8"
-             id="circle622" />
-          <circle
-             class="dot"
-             cx="832"
-             r="1.8"
-             id="circle623" />
-          <circle
-             class="dot"
-             cx="846"
-             r="1.8"
-             id="circle624" />
-          <circle
-             class="dot"
-             cx="860"
-             r="1.8"
-             id="circle625" />
-          <circle
-             class="dot"
-             cx="874"
-             r="1.8"
-             id="circle626" />
-          <circle
-             class="dot"
-             cx="888"
-             r="1.8"
-             id="circle627" />
-          <circle
-             class="dot"
-             cx="902"
-             r="1.8"
-             id="circle628" />
-          <circle
-             class="dot"
-             cx="916"
-             r="1.8"
-             id="circle629" />
-          <circle
-             class="dot"
-             cx="930"
-             r="1.8"
-             id="circle630" />
-          <circle
-             class="dot"
-             cx="944"
-             r="1.8"
-             id="circle631" />
-          <circle
-             class="dot"
-             cx="958"
-             r="1.8"
-             id="circle632" />
-          <circle
-             class="dot"
-             cx="972"
-             r="1.8"
-             id="circle633" />
-          <circle
-             class="dot"
-             cx="986"
-             r="1.8"
-             id="circle634" />
-          <circle
-             class="dot"
-             cx="1e3"
-             r="1.8"
-             id="circle635" />
-          <circle
-             class="dot"
-             cx="1014"
-             r="1.8"
-             id="circle636" />
-          <circle
-             class="dot"
-             cx="1028"
-             r="1.8"
-             id="circle637" />
-          <circle
-             class="dot"
-             cx="1042"
-             r="1.8"
-             id="circle638" />
-          <circle
-             class="dot"
-             cx="1056"
-             r="1.8"
-             id="circle639" />
-          <circle
-             class="dot"
-             cx="1070"
-             r="1.8"
-             id="circle640" />
-          <circle
-             class="dot"
-             cx="1084"
-             r="1.8"
-             id="circle641" />
-          <circle
-             class="dot"
-             cx="1098"
-             r="1.8"
-             id="circle642" />
-          <circle
-             class="dot"
-             cx="1112"
-             r="1.8"
-             id="circle643" />
-          <circle
-             class="dot"
-             cx="1126"
-             r="1.8"
-             id="circle644" />
-          <circle
-             class="dot"
-             cx="1140"
-             r="1.8"
-             id="circle645" />
-          <circle
-             class="dot"
-             cx="1154"
-             r="1.8"
-             id="circle646" />
-          <circle
-             class="dot"
-             cx="1168"
-             r="1.8"
-             id="circle647" />
-          <circle
-             class="dot"
-             cx="1182"
-             r="1.8"
-             id="circle648" />
-          <circle
-             class="dot"
-             cx="1196"
-             r="1.8"
-             id="circle649" />
-          <circle
-             class="dot"
-             cx="1210"
-             r="1.8"
-             id="circle650" />
-          <circle
-             class="dot"
-             cx="1224"
-             r="1.8"
-             id="circle651" />
-          <circle
-             class="dot"
-             cx="1238"
-             r="1.8"
-             id="circle652" />
-          <circle
-             class="dot"
-             cx="1252"
-             r="1.8"
-             id="circle653" />
-          <circle
-             class="dot"
-             cx="1266"
-             r="1.8"
-             id="circle654" />
-          <circle
-             class="dot"
-             cx="1280"
-             r="1.8"
-             id="circle655" />
-          <circle
-             class="dot"
-             cx="1294"
-             r="1.8"
-             id="circle656" />
-          <circle
-             class="dot"
-             cx="1308"
-             r="1.8"
-             id="circle657" />
-          <circle
-             class="dot"
-             cx="1322"
-             r="1.8"
-             id="circle658" />
-          <circle
-             class="dot"
-             cx="1336"
-             r="1.8"
-             id="circle659" />
-          <circle
-             class="dot"
-             cx="1350"
-             r="1.8"
-             id="circle660" />
-          <circle
-             class="dot"
-             cx="1364"
-             r="1.8"
-             id="circle661" />
-          <circle
-             class="dot"
-             cx="1378"
-             r="1.8"
-             id="circle662" />
-          <circle
-             class="dot"
-             cx="1392"
-             r="1.8"
-             id="circle663" />
-          <circle
-             class="dot"
-             cx="1406"
-             r="1.8"
-             id="circle664" />
-          <circle
-             class="dot"
-             cx="1420"
-             r="1.8"
-             id="circle665" />
-          <circle
-             class="dot"
-             cx="1434"
-             r="1.8"
-             id="circle666" />
-          <circle
-             class="dot"
-             cx="1448"
-             r="1.8"
-             id="circle667" />
-          <circle
-             class="dot"
-             cx="1462"
-             r="1.8"
-             id="circle668" />
-          <circle
-             class="dot"
-             cx="1476"
-             r="1.8"
-             id="circle669" />
-          <circle
-             class="dot"
-             cx="1490"
-             r="1.8"
-             id="circle670" />
-        </g>
-        <g
-           transform="translate(0,825)"
-           id="g722">
-          <circle
-             class="dot"
-             cx="776"
-             r="1.8"
-             id="circle671" />
-          <circle
-             class="dot"
-             cx="790"
-             r="1.8"
-             id="circle672" />
-          <circle
-             class="dot"
-             cx="804"
-             r="1.8"
-             id="circle673" />
-          <circle
-             class="dot"
-             cx="818"
-             r="1.8"
-             id="circle674" />
-          <circle
-             class="dot"
-             cx="832"
-             r="1.8"
-             id="circle675" />
-          <circle
-             class="dot"
-             cx="846"
-             r="1.8"
-             id="circle676" />
-          <circle
-             class="dot"
-             cx="860"
-             r="1.8"
-             id="circle677" />
-          <circle
-             class="dot"
-             cx="874"
-             r="1.8"
-             id="circle678" />
-          <circle
-             class="dot"
-             cx="888"
-             r="1.8"
-             id="circle679" />
-          <circle
-             class="dot"
-             cx="902"
-             r="1.8"
-             id="circle680" />
-          <circle
-             class="dot"
-             cx="916"
-             r="1.8"
-             id="circle681" />
-          <circle
-             class="dot"
-             cx="930"
-             r="1.8"
-             id="circle682" />
-          <circle
-             class="dot"
-             cx="944"
-             r="1.8"
-             id="circle683" />
-          <circle
-             class="dot"
-             cx="958"
-             r="1.8"
-             id="circle684" />
-          <circle
-             class="dot"
-             cx="972"
-             r="1.8"
-             id="circle685" />
-          <circle
-             class="dot"
-             cx="986"
-             r="1.8"
-             id="circle686" />
-          <circle
-             class="dot"
-             cx="1e3"
-             r="1.8"
-             id="circle687" />
-          <circle
-             class="dot"
-             cx="1014"
-             r="1.8"
-             id="circle688" />
-          <circle
-             class="dot"
-             cx="1028"
-             r="1.8"
-             id="circle689" />
-          <circle
-             class="dot"
-             cx="1042"
-             r="1.8"
-             id="circle690" />
-          <circle
-             class="dot"
-             cx="1056"
-             r="1.8"
-             id="circle691" />
-          <circle
-             class="dot"
-             cx="1070"
-             r="1.8"
-             id="circle692" />
-          <circle
-             class="dot"
-             cx="1084"
-             r="1.8"
-             id="circle693" />
-          <circle
-             class="dot"
-             cx="1098"
-             r="1.8"
-             id="circle694" />
-          <circle
-             class="dot"
-             cx="1112"
-             r="1.8"
-             id="circle695" />
-          <circle
-             class="dot"
-             cx="1126"
-             r="1.8"
-             id="circle696" />
-          <circle
-             class="dot"
-             cx="1140"
-             r="1.8"
-             id="circle697" />
-          <circle
-             class="dot"
-             cx="1154"
-             r="1.8"
-             id="circle698" />
-          <circle
-             class="dot"
-             cx="1168"
-             r="1.8"
-             id="circle699" />
-          <circle
-             class="dot"
-             cx="1182"
-             r="1.8"
-             id="circle700" />
-          <circle
-             class="dot"
-             cx="1196"
-             r="1.8"
-             id="circle701" />
-          <circle
-             class="dot"
-             cx="1210"
-             r="1.8"
-             id="circle702" />
-          <circle
-             class="dot"
-             cx="1224"
-             r="1.8"
-             id="circle703" />
-          <circle
-             class="dot"
-             cx="1238"
-             r="1.8"
-             id="circle704" />
-          <circle
-             class="dot"
-             cx="1252"
-             r="1.8"
-             id="circle705" />
-          <circle
-             class="dot"
-             cx="1266"
-             r="1.8"
-             id="circle706" />
-          <circle
-             class="dot"
-             cx="1280"
-             r="1.8"
-             id="circle707" />
-          <circle
-             class="dot"
-             cx="1294"
-             r="1.8"
-             id="circle708" />
-          <circle
-             class="dot"
-             cx="1308"
-             r="1.8"
-             id="circle709" />
-          <circle
-             class="dot"
-             cx="1322"
-             r="1.8"
-             id="circle710" />
-          <circle
-             class="dot"
-             cx="1336"
-             r="1.8"
-             id="circle711" />
-          <circle
-             class="dot"
-             cx="1350"
-             r="1.8"
-             id="circle712" />
-          <circle
-             class="dot"
-             cx="1364"
-             r="1.8"
-             id="circle713" />
-          <circle
-             class="dot"
-             cx="1378"
-             r="1.8"
-             id="circle714" />
-          <circle
-             class="dot"
-             cx="1392"
-             r="1.8"
-             id="circle715" />
-          <circle
-             class="dot"
-             cx="1406"
-             r="1.8"
-             id="circle716" />
-          <circle
-             class="dot"
-             cx="1420"
-             r="1.8"
-             id="circle717" />
-          <circle
-             class="dot"
-             cx="1434"
-             r="1.8"
-             id="circle718" />
-          <circle
-             class="dot"
-             cx="1448"
-             r="1.8"
-             id="circle719" />
-          <circle
-             class="dot"
-             cx="1462"
-             r="1.8"
-             id="circle720" />
-          <circle
-             class="dot"
-             cx="1476"
-             r="1.8"
-             id="circle721" />
-          <circle
-             class="dot"
-             cx="1490"
-             r="1.8"
-             id="circle722" />
-        </g>
-        <g
-           transform="translate(0,880)"
-           id="g774">
-          <circle
-             class="dot"
-             cx="776"
-             r="1.8"
-             id="circle723" />
-          <circle
-             class="dot"
-             cx="790"
-             r="1.8"
-             id="circle724" />
-          <circle
-             class="dot"
-             cx="804"
-             r="1.8"
-             id="circle725" />
-          <circle
-             class="dot"
-             cx="818"
-             r="1.8"
-             id="circle726" />
-          <circle
-             class="dot"
-             cx="832"
-             r="1.8"
-             id="circle727" />
-          <circle
-             class="dot"
-             cx="846"
-             r="1.8"
-             id="circle728" />
-          <circle
-             class="dot"
-             cx="860"
-             r="1.8"
-             id="circle729" />
-          <circle
-             class="dot"
-             cx="874"
-             r="1.8"
-             id="circle730" />
-          <circle
-             class="dot"
-             cx="888"
-             r="1.8"
-             id="circle731" />
-          <circle
-             class="dot"
-             cx="902"
-             r="1.8"
-             id="circle732" />
-          <circle
-             class="dot"
-             cx="916"
-             r="1.8"
-             id="circle733" />
-          <circle
-             class="dot"
-             cx="930"
-             r="1.8"
-             id="circle734" />
-          <circle
-             class="dot"
-             cx="944"
-             r="1.8"
-             id="circle735" />
-          <circle
-             class="dot"
-             cx="958"
-             r="1.8"
-             id="circle736" />
-          <circle
-             class="dot"
-             cx="972"
-             r="1.8"
-             id="circle737" />
-          <circle
-             class="dot"
-             cx="986"
-             r="1.8"
-             id="circle738" />
-          <circle
-             class="dot"
-             cx="1e3"
-             r="1.8"
-             id="circle739" />
-          <circle
-             class="dot"
-             cx="1014"
-             r="1.8"
-             id="circle740" />
-          <circle
-             class="dot"
-             cx="1028"
-             r="1.8"
-             id="circle741" />
-          <circle
-             class="dot"
-             cx="1042"
-             r="1.8"
-             id="circle742" />
-          <circle
-             class="dot"
-             cx="1056"
-             r="1.8"
-             id="circle743" />
-          <circle
-             class="dot"
-             cx="1070"
-             r="1.8"
-             id="circle744" />
-          <circle
-             class="dot"
-             cx="1084"
-             r="1.8"
-             id="circle745" />
-          <circle
-             class="dot"
-             cx="1098"
-             r="1.8"
-             id="circle746" />
-          <circle
-             class="dot"
-             cx="1112"
-             r="1.8"
-             id="circle747" />
-          <circle
-             class="dot"
-             cx="1126"
-             r="1.8"
-             id="circle748" />
-          <circle
-             class="dot"
-             cx="1140"
-             r="1.8"
-             id="circle749" />
-          <circle
-             class="dot"
-             cx="1154"
-             r="1.8"
-             id="circle750" />
-          <circle
-             class="dot"
-             cx="1168"
-             r="1.8"
-             id="circle751" />
-          <circle
-             class="dot"
-             cx="1182"
-             r="1.8"
-             id="circle752" />
-          <circle
-             class="dot"
-             cx="1196"
-             r="1.8"
-             id="circle753" />
-          <circle
-             class="dot"
-             cx="1210"
-             r="1.8"
-             id="circle754" />
-          <circle
-             class="dot"
-             cx="1224"
-             r="1.8"
-             id="circle755" />
-          <circle
-             class="dot"
-             cx="1238"
-             r="1.8"
-             id="circle756" />
-          <circle
-             class="dot"
-             cx="1252"
-             r="1.8"
-             id="circle757" />
-          <circle
-             class="dot"
-             cx="1266"
-             r="1.8"
-             id="circle758" />
-          <circle
-             class="dot"
-             cx="1280"
-             r="1.8"
-             id="circle759" />
-          <circle
-             class="dot"
-             cx="1294"
-             r="1.8"
-             id="circle760" />
-          <circle
-             class="dot"
-             cx="1308"
-             r="1.8"
-             id="circle761" />
-          <circle
-             class="dot"
-             cx="1322"
-             r="1.8"
-             id="circle762" />
-          <circle
-             class="dot"
-             cx="1336"
-             r="1.8"
-             id="circle763" />
-          <circle
-             class="dot"
-             cx="1350"
-             r="1.8"
-             id="circle764" />
-          <circle
-             class="dot"
-             cx="1364"
-             r="1.8"
-             id="circle765" />
-          <circle
-             class="dot"
-             cx="1378"
-             r="1.8"
-             id="circle766" />
-          <circle
-             class="dot"
-             cx="1392"
-             r="1.8"
-             id="circle767" />
-          <circle
-             class="dot"
-             cx="1406"
-             r="1.8"
-             id="circle768" />
-          <circle
-             class="dot"
-             cx="1420"
-             r="1.8"
-             id="circle769" />
-          <circle
-             class="dot"
-             cx="1434"
-             r="1.8"
-             id="circle770" />
-          <circle
-             class="dot"
-             cx="1448"
-             r="1.8"
-             id="circle771" />
-          <circle
-             class="dot"
-             cx="1462"
-             r="1.8"
-             id="circle772" />
-          <circle
-             class="dot"
-             cx="1476"
-             r="1.8"
-             id="circle773" />
-          <circle
-             class="dot"
-             cx="1490"
-             r="1.8"
-             id="circle774" />
-        </g>
-      </g>
-    </g>
-  </g>
+	</defs>
+	<g id="outer-border">
+		<rect class="border" x="28" y="28" width="1544" height="944" rx="24" ry="24"/>
+	</g>
+	<g id="layout" fill="none">
+		<rect x="70" y="70" width="640" height="860"/>
+		<rect x="742" y="70" width="788" height="860"/>
+	</g>
+	<g id="divider" transform="translate(1.4842)">
+		<line class="divider-line" x1="726" x2="726" y1="78" y2="922"/>
+	</g>
+	<g id="left-panel">
+		<g id="left-placeholders" transform="translate(-28)">
+			<text id="note-box-text" class="label-blue" x="101.82422" y="231.81316">##NOTE_BOX</text>
+			<text id="address-box-text" class="label-red" x="107.82422" y="345.74973" fill="#8d2b2b" font-family="'Fira Code'" font-size="18.667px" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variation-settings:'wght' 500">##ADDRESS_BOX</text>
+		</g>
+		<g id="mnemonic-list">
+			<g id="mnemonic-left-column" transform="translate(-19.633)">
+				<text class="small-num" x="100" y="450">1</text>
+				<line class="write-line" x1="132" x2="345" y1="444" y2="444"/>
+				<text class="token" x="238.5" y="440" font-size="20px" font-weight="500">#T1#</text>
+				<text class="small-num" x="100" y="490">2</text>
+				<line class="write-line" x1="132" x2="345" y1="484" y2="484"/>
+				<text class="token" x="238.5" y="480" font-family="'Courier New', monospace" font-size="20px" font-weight="500">#T2#</text>
+				<text class="small-num" x="100" y="530">3</text>
+				<line class="write-line" x1="132" x2="345" y1="524" y2="524"/>
+				<text class="token" x="238.5" y="520" font-family="'Courier New', monospace" font-size="20px" font-weight="500">#T3#</text>
+				<text class="small-num" x="100" y="570">4</text>
+				<line class="write-line" x1="132" x2="345" y1="564" y2="564"/>
+				<text class="token" x="238.5" y="560" font-family="'Courier New', monospace" font-size="20px" font-weight="500">#T4#</text>
+				<text class="small-num" x="100" y="610">5</text>
+				<line class="write-line" x1="132" x2="345" y1="604" y2="604"/>
+				<text class="token" x="238.5" y="600" font-family="'Courier New', monospace" font-size="20px" font-weight="500">#T5#</text>
+				<text class="small-num" x="100" y="650">6</text>
+				<line class="write-line" x1="132" x2="345" y1="644" y2="644"/>
+				<text class="token" x="238.5" y="640" font-family="'Courier New', monospace" font-size="20px" font-weight="500">#T6#</text>
+				<text class="small-num" x="100" y="690">7</text>
+				<line class="write-line" x1="132" x2="345" y1="684" y2="684"/>
+				<text class="token" x="238.5" y="680" font-family="'Courier New', monospace" font-size="20px" font-weight="500">#T7#</text>
+				<text class="small-num" x="100" y="730">8</text>
+				<line class="write-line" x1="132" x2="345" y1="724" y2="724"/>
+				<text class="token" x="238.5" y="720" font-family="'Courier New', monospace" font-size="20px" font-weight="500">#T8#</text>
+				<text class="small-num" x="100" y="770">9</text>
+				<line class="write-line" x1="132" x2="345" y1="764" y2="764"/>
+				<text class="token" x="238.5" y="760" font-family="'Courier New', monospace" font-size="20px" font-weight="500">#T9#</text>
+				<text class="small-num" x="92" y="810">10</text>
+				<line class="write-line" x1="132" x2="345" y1="804" y2="804"/>
+				<text class="token" x="238.5" y="800" font-family="'Courier New', monospace" font-size="20px" font-weight="500">#T10#</text>
+				<text class="small-num" x="92" y="850">11</text>
+				<line class="write-line" x1="132" x2="345" y1="844" y2="844"/>
+				<text class="token" x="238.5" y="840" font-family="'Courier New', monospace" font-size="20px" font-weight="500">#T11#</text>
+				<text class="small-num" x="92" y="890">12</text>
+				<line class="write-line" x1="132" x2="345" y1="884" y2="884"/>
+				<text class="token" x="238.5" y="880" font-family="'Courier New', monospace" font-size="20px" font-weight="500">#T12#</text>
+			</g>
+			<g id="mnemonic-right-column">
+				<text class="small-num" x="377" y="450">13</text>
+				<line class="write-line" x1="425" x2="638" y1="444" y2="444"/>
+				<text class="token" x="531.5" y="440" font-family="'Courier New', monospace" font-size="20px" font-weight="500">#T13#</text>
+				<text class="small-num" x="377" y="490">14</text>
+				<line class="write-line" x1="425" x2="638" y1="484" y2="484"/>
+				<text class="token" x="531.5" y="480" font-family="'Courier New', monospace" font-size="20px" font-weight="500">#T14#</text>
+				<text class="small-num" x="377" y="530">15</text>
+				<line class="write-line" x1="425" x2="638" y1="524" y2="524"/>
+				<text class="token" x="531.5" y="520" font-family="'Courier New', monospace" font-size="20px" font-weight="500">#T15#</text>
+				<text class="small-num" x="377" y="570">16</text>
+				<line class="write-line" x1="425" x2="638" y1="564" y2="564"/>
+				<text class="token" x="531.5" y="560" font-family="'Courier New', monospace" font-size="20px" font-weight="500">#T16#</text>
+				<text class="small-num" x="377" y="610">17</text>
+				<line class="write-line" x1="425" x2="638" y1="604" y2="604"/>
+				<text class="token" x="531.5" y="600" font-family="'Courier New', monospace" font-size="20px" font-weight="500">#T17#</text>
+				<text class="small-num" x="377" y="650">18</text>
+				<line class="write-line" x1="425" x2="638" y1="644" y2="644"/>
+				<text class="token" x="531.5" y="640" font-family="'Courier New', monospace" font-size="20px" font-weight="500">#T18#</text>
+				<text class="small-num" x="377" y="690">19</text>
+				<line class="write-line" x1="425" x2="638" y1="684" y2="684"/>
+				<text class="token" x="531.5" y="680" font-family="'Courier New', monospace" font-size="20px" font-weight="500">#T19#</text>
+				<text class="small-num" x="377" y="730">20</text>
+				<line class="write-line" x1="425" x2="638" y1="724" y2="724"/>
+				<text class="token" x="531.5" y="720" font-family="'Courier New', monospace" font-size="20px" font-weight="500">#T20#</text>
+				<text class="small-num" x="377" y="770">21</text>
+				<line class="write-line" x1="425" x2="638" y1="764" y2="764"/>
+				<text class="token" x="531.5" y="760" font-family="'Courier New', monospace" font-size="20px" font-weight="500">#T21#</text>
+				<text class="small-num" x="377" y="810">22</text>
+				<line class="write-line" x1="425" x2="638" y1="804" y2="804"/>
+				<text class="token" x="531.5" y="800" font-family="'Courier New', monospace" font-size="20px" font-weight="500">#T22#</text>
+				<text class="small-num" x="377" y="850">23</text>
+				<line class="write-line" x1="425" x2="638" y1="844" y2="844"/>
+				<text class="token" x="531.5" y="840" font-family="'Courier New', monospace" font-size="20px" font-weight="500">#T23#</text>
+				<text class="small-num" x="377" y="890">24</text>
+				<line class="write-line" x1="425" x2="638" y1="884" y2="884"/>
+				<text class="token" x="531.5" y="880" font-family="'Courier New', monospace" font-size="20px" font-weight="500">#T24#</text>
+			</g>
+		</g>
+		<path d="m85.693 109.92-3.2114 11.882h-2.3056l-3.1564-11.85v11.85h-3.0193v-22.481h3.0193l4.3092 14.869 4.364-14.869h3.0193v22.481h-3.0193zm14.089 1.7663c0-0.85744-0.2086-1.5415-0.6313-2.0553-0.4007-0.5363-0.9497-0.80285-1.6468-0.80285-0.5655 0-1.1803 0.19258-1.839 0.57805v12.396h-2.9918v-16.089h2.6625l0.3568 0.1928c0.7685-0.29866 1.5645-0.4496 2.3879-0.4496 0.9168 0 1.7127 0.19259 2.388 0.57805 0.7328 0.38538 1.301 0.96343 1.7017 1.7342 0.4227 0.77074 0.6313 1.7438 0.6313 2.9223v11.112h-3.0193zm8.8654 5.3309c0 0.60053 0.1371 1.0694 0.4117 1.413 0.2937 0.32114 0.7136 0.48172 1.2625 0.48172 0.8427 0 1.968-0.42713 3.3761-1.2846l1.0979 3.051c-0.6587 0.49134-1.408 0.86707-2.2506 1.124-0.8399 0.2569-1.6825 0.38535-2.5251 0.38535-1.3531 0-2.4319-0.38535-3.2387-1.1561-0.785-0.79321-1.1802-1.9686-1.1802-3.5326v-6.5833c0-1.7342 0.4584-3.083 1.3723-4.0464 0.9332-0.96342 2.1602-1.4451 3.6779-1.4451 1.5206 0 2.7008 0.48172 3.5408 1.4451 0.8618 0.94096 1.29 2.2577 1.29 3.9501v4.8813l-6.8343 0.4175zm3.7877-6.1338c0-0.64229-0.173-1.1336-0.5215-1.4773-0.3458-0.34362-0.7768-0.51382-1.29-0.51382-0.6944 0-1.1967 0.21516-1.5096 0.64229-0.3102 0.42711-0.4666 0.89919-0.4666 1.413v1.9269l3.7877-0.28902zm20.355 1.1561c0-1.1561-0.1372-1.9911-0.4117-2.5049-0.2553-0.51383-0.6752-0.77076-1.2626-0.77076-0.4199 0-0.9881 0.1509-1.7017 0.44962l-0.4666 0.22479c0.038 0.12839 0.066 0.27939 0.082 0.44959 0.019 0.17029 0.028 0.33079 0.028 0.48172v11.433h-3.0193v-9.6664c0-1.0694-0.2086-1.8948-0.6313-2.4728-0.4199-0.57807-0.9881-0.86709-1.7017-0.86709-0.6395 0-1.3065 0.23443-2.0036 0.70652v12.3h-3.0193v-16.089h2.6624l0.3569 0.22481c0.6038-0.32114 1.29-0.48171 2.0585-0.48171 0.6231 0 1.2269 0.12839 1.8115 0.38536 0.5874 0.23443 1.0979 0.61981 1.5371 1.1561 0.258-0.17029 0.6422-0.40785 1.1527-0.70651 1.0815-0.57807 2.1245-0.86709 3.1289-0.86709 1.301 0 2.3605 0.47208 3.184 1.413 0.8234 0.92168 1.2351 2.2062 1.2351 3.8538v11.112h-3.0193zm16.474 3.8538c0 1.7984-0.42 3.2852-1.2626 4.4639-0.8399 1.1786-2.1134 1.7663-3.8152 1.7663s-2.9918-0.5877-3.8701-1.7663c-0.8591-1.1979-1.29-2.6879-1.29-4.4639v-4.2392c0-2.0328 0.4391-3.5872 1.3175-4.6567 0.8975-1.0919 2.1793-1.6378 3.8425-1.6378 1.5919 0 2.8381 0.56844 3.7329 1.7021 0.8975 1.1144 1.3449 2.643 1.3449 4.5922zm-2.9918-4.2392c0-1.1336-0.2003-1.8722-0.6038-2.216-0.4007-0.34361-0.8948-0.51383-1.4822-0.51383-1.4272 0-2.1409 0.90884-2.1409 2.7298v4.5602c0 0.85746 0.2032 1.4773 0.6038 1.8626 0.4035 0.38536 0.9168 0.57805 1.5371 0.57805 0.6038 0 1.0978-0.20239 1.4821-0.61017 0.4035-0.40785 0.6038-1.018 0.6038-1.8305zm12.936 0.0321c0-0.85744-0.2113-1.5415-0.6313-2.0553-0.4035-0.5363-0.9524-0.80285-1.6468-0.80285-0.5682 0-1.1803 0.19258-1.839 0.57807v12.396h-2.9918v-16.089h2.6625l0.3568 0.1928c0.7685-0.29866 1.5645-0.4496 2.3879-0.4496 0.914 0 1.71 0.19259 2.388 0.57805 0.7301 0.38538 1.2982 0.96343 1.7017 1.7342 0.4199 0.77074 0.6313 1.7438 0.6313 2.9223v11.112h-3.0193zm8.6459-8.8956c-0.4391 0-0.8234-0.19259-1.1528-0.57805-0.3293-0.38538-0.494-0.83498-0.494-1.3488 0-0.49134 0.1646-0.92168 0.494-1.2846 0.3294-0.38536 0.7137-0.57805 1.1528-0.57805 0.42 0 0.785 0.1928 1.0979 0.57805 0.3294 0.36289 0.4941 0.79323 0.4941 1.2846 0 0.51383-0.1647 0.96343-0.4941 1.3488-0.3129 0.38538-0.6779 0.57805-1.0979 0.57805zm-1.5919 2.9223h3.0192v16.089h-3.0192zm14.33 15.897c-1.1336 0.34363-2.2314 0.51383-3.2937 0.51383-0.9882 0-1.8116-0.12839-2.4703-0.38538-1.0787-0.42711-1.8664-1.0822-2.3604-1.959-0.4749-0.89919-0.7137-2.1516-0.7137-3.7573v-4.1106c0-2.1195 0.4749-3.7252 1.4273-4.8172 0.9524-1.1144 2.1766-1.67 3.6779-1.67 1.1884 0 2.4152 0.34364 3.6778 1.0277l-0.8234 3.0509c-0.8783-0.40785-1.666-0.61017-2.3604-0.61017-0.8234 0-1.463 0.26654-1.9213 0.80286-0.4392 0.5363-0.6588 1.2107-0.6588 2.0232v4.6567c0 0.8125 0.2471 1.3906 0.7411 1.7342 0.4941 0.34362 1.1254 0.51384 1.8939 0.51384 0.4391 0 0.8783-0.0546 1.3175-0.16049 0.4391-0.10588 0.7877-0.21518 1.0429-0.32114zm10.46-22.287h6.258c1.9213 0 3.3402 0.72899 4.2544 2.1837 0.9332 1.4355 1.3998 3.2435 1.3998 5.4274 0 5.7388-1.8006 8.6068-5.407 8.6068h-3.4858v6.2624h-3.0192zm5.5991 12.846c1.043 0 1.8033-0.26655 2.2781-0.80288 0.4941-0.5363 0.7878-1.1336 0.8783-1.7984 0.093-0.68403 0.1372-1.5415 0.1372-2.5691 0-1.1336-0.1372-2.0007-0.4117-2.6012-0.2553-0.61981-0.6313-1.0277-1.1254-1.2204-0.4748-0.21516-1.0979-0.32114-1.8664-0.32114h-2.4703v9.3131zm16.243-0.22481c0-1.1561-0.2196-1.9815-0.6587-2.4728-0.42-0.49135-0.9607-0.73862-1.6194-0.73862-0.3459 0-0.6862 0.0642-1.0156 0.19258-0.3293 0.10609-0.5928 0.23444-0.7959 0.38536v12.492h-3.0193v-22.481h3.0193v6.5192c0.6422-0.2794 1.3833-0.41748 2.2233-0.41748 0.9524 0 1.8032 0.20238 2.5525 0.61017 0.7329 0.38538 1.301 0.96343 1.7018 1.7342 0.4227 0.77074 0.6313 1.7438 0.6313 2.9223v11.112h-3.0193zm6.3457-6.2303h2.7996l0.2196 0.12839c0.7493-0.29865 1.4547-0.44959 2.1134-0.44959 0.4584 0 1.1254 0.10588 2.0037 0.32114l0.5489 0.12839-0.7136 3.4363c-0.5133-0.29865-1.0156-0.4496-1.5096-0.4496-0.678 0-1.2543 0.24728-1.7292 0.73862-0.4748 0.47209-0.7136 1.1015-0.7136 1.8947v10.341h-3.0193zm17.602 16.089c-1.9761 0.23444-3.4033 0.35326-4.2817 0.35326-1.9213 0-3.45-0.41749-4.5837-1.2525-1.1363-0.83495-1.7017-2.3444-1.7017-4.5281v-2.6656c0-2.1195 0.6313-3.5422 1.8939-4.2713 0.6038-0.34361 1.29-0.51383 2.0585-0.51383 0.6752 0 1.3449 0.10588 2.0037 0.32114 0.6587 0.21518 1.1884 0.44962 1.5919 0.70652 0-0.79323-0.2745-1.3263-0.8234-1.6057-0.549-0.29868-1.2543-0.4496-2.1134-0.4496l0.247-2.4407c1.7566 0 3.0466 0.33077 3.87 0.99555 0.8399 0.64228 1.3532 1.413 1.5371 2.3123 0.2003 0.89921 0.3019 2.0553 0.3019 3.4684zm-3.0192-8.0928c-0.3294-0.2794-0.796-0.5363-1.3998-0.77074-0.5874-0.25693-1.1254-0.38538-1.6194-0.38538-0.4392 0-0.796 0.12839-1.0704 0.38538-0.2745 0.2569-0.4118 0.66475-0.4118 1.2203v1.7663c0 1.9493 0.9772 2.9223 2.937 2.9223 0.5654 0 1.0869-0.0546 1.5645-0.16049zm8.0146 3.661c0 0.38538 0.1646 0.74827 0.494 1.0919 0.3459 0.34361 0.8674 0.51381 1.5646 0.51381 0.6038 0 1.0704-0.17028 1.3997-0.51381 0.3294-0.36289 0.4941-0.78039 0.4941-1.2525 0-0.66476-0.2114-1.1561-0.6313-1.4773-0.4035-0.32115-1.0622-0.67439-1.9762-1.0598-0.7877-0.29865-1.4382-0.60053-1.9487-0.89919-0.5133-0.29867-0.9717-0.74827-1.3724-1.3488-0.4035-0.60053-0.6423-1.3809-0.7136-2.3444-0.055-0.72899 0.063-1.4548 0.3568-2.1837 0.3101-0.74827 0.8234-1.3584 1.537-1.8305 0.7301-0.49135 1.6633-0.73862 2.7996-0.73862 0.5846 0 1.0979 0.0738 1.537 0.22478 0.4557 0.12839 0.8125 0.26656 1.0705 0.4175 0.2552 0.1509 0.4117 0.24728 0.4666 0.28903l-0.8783 3.2756c-0.038-0.0417-0.1372-0.1188-0.3019-0.22481-0.1482-0.12839-0.3843-0.24728-0.7137-0.35326-0.3293-0.10588-0.7246-0.16049-1.1802-0.16049-0.9881 0-1.4821 0.32114-1.4821 0.96343 0 0.12839 0.017 0.25693 0.055 0.38538 0.055 0.29865 0.247 0.55558 0.5763 0.77074 0.3294 0.19258 0.8125 0.42713 1.4547 0.70652 0.8948 0.38536 1.6469 0.77074 2.2506 1.1561 0.6204 0.36289 1.1528 0.92168 1.592 1.6699 0.4556 0.72901 0.6862 1.67 0.6862 2.826 0 0.87672-0.1839 1.702-0.549 2.4728-0.3678 0.74824-0.9332 1.3584-1.7017 1.8305-0.7521 0.47208-1.6935 0.70652-2.8271 0.70652-1.043 0-1.9488-0.20238-2.7173-0.61017-0.752-0.42713-1.3284-0.98592-1.7291-1.67-0.3843-0.68403-0.5957-1.4451-0.6313-2.2802zm11.819-0.35324c0 0.60054 0.1371 1.0694 0.4117 1.413 0.2937 0.32115 0.7136 0.48172 1.2626 0.48172 0.8426 0 1.9679-0.42713 3.376-1.2846l1.0979 3.0509c-0.6587 0.49134-1.408 0.86709-2.2506 1.124-0.8399 0.2569-1.6825 0.38538-2.525 0.38538-1.3532 0-2.432-0.38538-3.2388-1.1561-0.785-0.79323-1.1802-1.9686-1.1802-3.5326v-6.5834c0-1.7342 0.4584-3.083 1.3724-4.0464 0.9332-0.96343 2.1601-1.4452 3.6778-1.4452 1.5206 0 2.7008 0.48172 3.5408 1.4452 0.8618 0.94096 1.29 2.2577 1.29 3.9501v4.8813l-6.8343 0.41747zm3.7877-6.1338c0-0.64229-0.173-1.1336-0.5215-1.4772-0.3458-0.34363-0.7767-0.51383-1.29-0.51383-0.6944 0-1.1967 0.21515-1.5096 0.64228-0.3101 0.42711-0.4666 0.89919-0.4666 1.413v1.9268l3.7877-0.28902z" fill="#a00"/>
+	</g>
+	<image x="474.5" y="81.364" width="220" height="220" xlink:href="data:image/png;base64,#qr_code_base64#"/>
+	<g id="right-panel">
+		<g id="notes-section">
+			<text class="title-notes" x="780" y="152">Notes:</text>
+			<g id="notes-first-line">
+				<g aria-hidden="true">
+					<circle class="dot" cx="940" cy="163" r="1.8"/>
+					<circle class="dot" cx="952" cy="163" r="1.8"/>
+					<circle class="dot" cx="964" cy="163" r="1.8"/>
+					<circle class="dot" cx="976" cy="163" r="1.8"/>
+					<circle class="dot" cx="988" cy="163" r="1.8"/>
+					<circle class="dot" cx="1e3" cy="163" r="1.8"/>
+					<circle class="dot" cx="1012" cy="163" r="1.8"/>
+					<circle class="dot" cx="1024" cy="163" r="1.8"/>
+					<circle class="dot" cx="1036" cy="163" r="1.8"/>
+					<circle class="dot" cx="1048" cy="163" r="1.8"/>
+					<circle class="dot" cx="1060" cy="163" r="1.8"/>
+					<circle class="dot" cx="1072" cy="163" r="1.8"/>
+					<circle class="dot" cx="1084" cy="163" r="1.8"/>
+					<circle class="dot" cx="1096" cy="163" r="1.8"/>
+					<circle class="dot" cx="1108" cy="163" r="1.8"/>
+					<circle class="dot" cx="1120" cy="163" r="1.8"/>
+					<circle class="dot" cx="1132" cy="163" r="1.8"/>
+					<circle class="dot" cx="1144" cy="163" r="1.8"/>
+					<circle class="dot" cx="1156" cy="163" r="1.8"/>
+					<circle class="dot" cx="1168" cy="163" r="1.8"/>
+					<circle class="dot" cx="1180" cy="163" r="1.8"/>
+					<circle class="dot" cx="1192" cy="163" r="1.8"/>
+					<circle class="dot" cx="1204" cy="163" r="1.8"/>
+					<circle class="dot" cx="1216" cy="163" r="1.8"/>
+					<circle class="dot" cx="1228" cy="163" r="1.8"/>
+					<circle class="dot" cx="1240" cy="163" r="1.8"/>
+					<circle class="dot" cx="1252" cy="163" r="1.8"/>
+					<circle class="dot" cx="1264" cy="163" r="1.8"/>
+					<circle class="dot" cx="1276" cy="163" r="1.8"/>
+					<circle class="dot" cx="1288" cy="163" r="1.8"/>
+					<circle class="dot" cx="1300" cy="163" r="1.8"/>
+					<circle class="dot" cx="1312" cy="163" r="1.8"/>
+					<circle class="dot" cx="1324" cy="163" r="1.8"/>
+					<circle class="dot" cx="1336" cy="163" r="1.8"/>
+					<circle class="dot" cx="1348" cy="163" r="1.8"/>
+					<circle class="dot" cx="1360" cy="163" r="1.8"/>
+					<circle class="dot" cx="1372" cy="163" r="1.8"/>
+					<circle class="dot" cx="1384" cy="163" r="1.8"/>
+					<circle class="dot" cx="1396" cy="163" r="1.8"/>
+					<circle class="dot" cx="1408" cy="163" r="1.8"/>
+					<circle class="dot" cx="1420" cy="163" r="1.8"/>
+					<circle class="dot" cx="1432" cy="163" r="1.8"/>
+					<circle class="dot" cx="1444" cy="163" r="1.8"/>
+					<circle class="dot" cx="1456" cy="163" r="1.8"/>
+					<circle class="dot" cx="1468" cy="163" r="1.8"/>
+					<circle class="dot" cx="1480" cy="163" r="1.8"/>
+					<circle class="dot" cx="1492" cy="163" r="1.8"/>
+				</g>
+			</g>
+			<g id="notes-guides" aria-hidden="true">
+				<g transform="translate(0,220)">
+					<circle class="dot" cx="776" r="1.8"/>
+					<circle class="dot" cx="790" r="1.8"/>
+					<circle class="dot" cx="804" r="1.8"/>
+					<circle class="dot" cx="818" r="1.8"/>
+					<circle class="dot" cx="832" r="1.8"/>
+					<circle class="dot" cx="846" r="1.8"/>
+					<circle class="dot" cx="860" r="1.8"/>
+					<circle class="dot" cx="874" r="1.8"/>
+					<circle class="dot" cx="888" r="1.8"/>
+					<circle class="dot" cx="902" r="1.8"/>
+					<circle class="dot" cx="916" r="1.8"/>
+					<circle class="dot" cx="930" r="1.8"/>
+					<circle class="dot" cx="944" r="1.8"/>
+					<circle class="dot" cx="958" r="1.8"/>
+					<circle class="dot" cx="972" r="1.8"/>
+					<circle class="dot" cx="986" r="1.8"/>
+					<circle class="dot" cx="1e3" r="1.8"/>
+					<circle class="dot" cx="1014" r="1.8"/>
+					<circle class="dot" cx="1028" r="1.8"/>
+					<circle class="dot" cx="1042" r="1.8"/>
+					<circle class="dot" cx="1056" r="1.8"/>
+					<circle class="dot" cx="1070" r="1.8"/>
+					<circle class="dot" cx="1084" r="1.8"/>
+					<circle class="dot" cx="1098" r="1.8"/>
+					<circle class="dot" cx="1112" r="1.8"/>
+					<circle class="dot" cx="1126" r="1.8"/>
+					<circle class="dot" cx="1140" r="1.8"/>
+					<circle class="dot" cx="1154" r="1.8"/>
+					<circle class="dot" cx="1168" r="1.8"/>
+					<circle class="dot" cx="1182" r="1.8"/>
+					<circle class="dot" cx="1196" r="1.8"/>
+					<circle class="dot" cx="1210" r="1.8"/>
+					<circle class="dot" cx="1224" r="1.8"/>
+					<circle class="dot" cx="1238" r="1.8"/>
+					<circle class="dot" cx="1252" r="1.8"/>
+					<circle class="dot" cx="1266" r="1.8"/>
+					<circle class="dot" cx="1280" r="1.8"/>
+					<circle class="dot" cx="1294" r="1.8"/>
+					<circle class="dot" cx="1308" r="1.8"/>
+					<circle class="dot" cx="1322" r="1.8"/>
+					<circle class="dot" cx="1336" r="1.8"/>
+					<circle class="dot" cx="1350" r="1.8"/>
+					<circle class="dot" cx="1364" r="1.8"/>
+					<circle class="dot" cx="1378" r="1.8"/>
+					<circle class="dot" cx="1392" r="1.8"/>
+					<circle class="dot" cx="1406" r="1.8"/>
+					<circle class="dot" cx="1420" r="1.8"/>
+					<circle class="dot" cx="1434" r="1.8"/>
+					<circle class="dot" cx="1448" r="1.8"/>
+					<circle class="dot" cx="1462" r="1.8"/>
+					<circle class="dot" cx="1476" r="1.8"/>
+					<circle class="dot" cx="1490" r="1.8"/>
+				</g>
+				<g transform="translate(0,275)">
+					<circle class="dot" cx="776" r="1.8"/>
+					<circle class="dot" cx="790" r="1.8"/>
+					<circle class="dot" cx="804" r="1.8"/>
+					<circle class="dot" cx="818" r="1.8"/>
+					<circle class="dot" cx="832" r="1.8"/>
+					<circle class="dot" cx="846" r="1.8"/>
+					<circle class="dot" cx="860" r="1.8"/>
+					<circle class="dot" cx="874" r="1.8"/>
+					<circle class="dot" cx="888" r="1.8"/>
+					<circle class="dot" cx="902" r="1.8"/>
+					<circle class="dot" cx="916" r="1.8"/>
+					<circle class="dot" cx="930" r="1.8"/>
+					<circle class="dot" cx="944" r="1.8"/>
+					<circle class="dot" cx="958" r="1.8"/>
+					<circle class="dot" cx="972" r="1.8"/>
+					<circle class="dot" cx="986" r="1.8"/>
+					<circle class="dot" cx="1e3" r="1.8"/>
+					<circle class="dot" cx="1014" r="1.8"/>
+					<circle class="dot" cx="1028" r="1.8"/>
+					<circle class="dot" cx="1042" r="1.8"/>
+					<circle class="dot" cx="1056" r="1.8"/>
+					<circle class="dot" cx="1070" r="1.8"/>
+					<circle class="dot" cx="1084" r="1.8"/>
+					<circle class="dot" cx="1098" r="1.8"/>
+					<circle class="dot" cx="1112" r="1.8"/>
+					<circle class="dot" cx="1126" r="1.8"/>
+					<circle class="dot" cx="1140" r="1.8"/>
+					<circle class="dot" cx="1154" r="1.8"/>
+					<circle class="dot" cx="1168" r="1.8"/>
+					<circle class="dot" cx="1182" r="1.8"/>
+					<circle class="dot" cx="1196" r="1.8"/>
+					<circle class="dot" cx="1210" r="1.8"/>
+					<circle class="dot" cx="1224" r="1.8"/>
+					<circle class="dot" cx="1238" r="1.8"/>
+					<circle class="dot" cx="1252" r="1.8"/>
+					<circle class="dot" cx="1266" r="1.8"/>
+					<circle class="dot" cx="1280" r="1.8"/>
+					<circle class="dot" cx="1294" r="1.8"/>
+					<circle class="dot" cx="1308" r="1.8"/>
+					<circle class="dot" cx="1322" r="1.8"/>
+					<circle class="dot" cx="1336" r="1.8"/>
+					<circle class="dot" cx="1350" r="1.8"/>
+					<circle class="dot" cx="1364" r="1.8"/>
+					<circle class="dot" cx="1378" r="1.8"/>
+					<circle class="dot" cx="1392" r="1.8"/>
+					<circle class="dot" cx="1406" r="1.8"/>
+					<circle class="dot" cx="1420" r="1.8"/>
+					<circle class="dot" cx="1434" r="1.8"/>
+					<circle class="dot" cx="1448" r="1.8"/>
+					<circle class="dot" cx="1462" r="1.8"/>
+					<circle class="dot" cx="1476" r="1.8"/>
+					<circle class="dot" cx="1490" r="1.8"/>
+				</g>
+				<g transform="translate(0,330)">
+					<circle class="dot" cx="776" r="1.8"/>
+					<circle class="dot" cx="790" r="1.8"/>
+					<circle class="dot" cx="804" r="1.8"/>
+					<circle class="dot" cx="818" r="1.8"/>
+					<circle class="dot" cx="832" r="1.8"/>
+					<circle class="dot" cx="846" r="1.8"/>
+					<circle class="dot" cx="860" r="1.8"/>
+					<circle class="dot" cx="874" r="1.8"/>
+					<circle class="dot" cx="888" r="1.8"/>
+					<circle class="dot" cx="902" r="1.8"/>
+					<circle class="dot" cx="916" r="1.8"/>
+					<circle class="dot" cx="930" r="1.8"/>
+					<circle class="dot" cx="944" r="1.8"/>
+					<circle class="dot" cx="958" r="1.8"/>
+					<circle class="dot" cx="972" r="1.8"/>
+					<circle class="dot" cx="986" r="1.8"/>
+					<circle class="dot" cx="1e3" r="1.8"/>
+					<circle class="dot" cx="1014" r="1.8"/>
+					<circle class="dot" cx="1028" r="1.8"/>
+					<circle class="dot" cx="1042" r="1.8"/>
+					<circle class="dot" cx="1056" r="1.8"/>
+					<circle class="dot" cx="1070" r="1.8"/>
+					<circle class="dot" cx="1084" r="1.8"/>
+					<circle class="dot" cx="1098" r="1.8"/>
+					<circle class="dot" cx="1112" r="1.8"/>
+					<circle class="dot" cx="1126" r="1.8"/>
+					<circle class="dot" cx="1140" r="1.8"/>
+					<circle class="dot" cx="1154" r="1.8"/>
+					<circle class="dot" cx="1168" r="1.8"/>
+					<circle class="dot" cx="1182" r="1.8"/>
+					<circle class="dot" cx="1196" r="1.8"/>
+					<circle class="dot" cx="1210" r="1.8"/>
+					<circle class="dot" cx="1224" r="1.8"/>
+					<circle class="dot" cx="1238" r="1.8"/>
+					<circle class="dot" cx="1252" r="1.8"/>
+					<circle class="dot" cx="1266" r="1.8"/>
+					<circle class="dot" cx="1280" r="1.8"/>
+					<circle class="dot" cx="1294" r="1.8"/>
+					<circle class="dot" cx="1308" r="1.8"/>
+					<circle class="dot" cx="1322" r="1.8"/>
+					<circle class="dot" cx="1336" r="1.8"/>
+					<circle class="dot" cx="1350" r="1.8"/>
+					<circle class="dot" cx="1364" r="1.8"/>
+					<circle class="dot" cx="1378" r="1.8"/>
+					<circle class="dot" cx="1392" r="1.8"/>
+					<circle class="dot" cx="1406" r="1.8"/>
+					<circle class="dot" cx="1420" r="1.8"/>
+					<circle class="dot" cx="1434" r="1.8"/>
+					<circle class="dot" cx="1448" r="1.8"/>
+					<circle class="dot" cx="1462" r="1.8"/>
+					<circle class="dot" cx="1476" r="1.8"/>
+					<circle class="dot" cx="1490" r="1.8"/>
+				</g>
+				<g transform="translate(0,385)">
+					<circle class="dot" cx="776" r="1.8"/>
+					<circle class="dot" cx="790" r="1.8"/>
+					<circle class="dot" cx="804" r="1.8"/>
+					<circle class="dot" cx="818" r="1.8"/>
+					<circle class="dot" cx="832" r="1.8"/>
+					<circle class="dot" cx="846" r="1.8"/>
+					<circle class="dot" cx="860" r="1.8"/>
+					<circle class="dot" cx="874" r="1.8"/>
+					<circle class="dot" cx="888" r="1.8"/>
+					<circle class="dot" cx="902" r="1.8"/>
+					<circle class="dot" cx="916" r="1.8"/>
+					<circle class="dot" cx="930" r="1.8"/>
+					<circle class="dot" cx="944" r="1.8"/>
+					<circle class="dot" cx="958" r="1.8"/>
+					<circle class="dot" cx="972" r="1.8"/>
+					<circle class="dot" cx="986" r="1.8"/>
+					<circle class="dot" cx="1e3" r="1.8"/>
+					<circle class="dot" cx="1014" r="1.8"/>
+					<circle class="dot" cx="1028" r="1.8"/>
+					<circle class="dot" cx="1042" r="1.8"/>
+					<circle class="dot" cx="1056" r="1.8"/>
+					<circle class="dot" cx="1070" r="1.8"/>
+					<circle class="dot" cx="1084" r="1.8"/>
+					<circle class="dot" cx="1098" r="1.8"/>
+					<circle class="dot" cx="1112" r="1.8"/>
+					<circle class="dot" cx="1126" r="1.8"/>
+					<circle class="dot" cx="1140" r="1.8"/>
+					<circle class="dot" cx="1154" r="1.8"/>
+					<circle class="dot" cx="1168" r="1.8"/>
+					<circle class="dot" cx="1182" r="1.8"/>
+					<circle class="dot" cx="1196" r="1.8"/>
+					<circle class="dot" cx="1210" r="1.8"/>
+					<circle class="dot" cx="1224" r="1.8"/>
+					<circle class="dot" cx="1238" r="1.8"/>
+					<circle class="dot" cx="1252" r="1.8"/>
+					<circle class="dot" cx="1266" r="1.8"/>
+					<circle class="dot" cx="1280" r="1.8"/>
+					<circle class="dot" cx="1294" r="1.8"/>
+					<circle class="dot" cx="1308" r="1.8"/>
+					<circle class="dot" cx="1322" r="1.8"/>
+					<circle class="dot" cx="1336" r="1.8"/>
+					<circle class="dot" cx="1350" r="1.8"/>
+					<circle class="dot" cx="1364" r="1.8"/>
+					<circle class="dot" cx="1378" r="1.8"/>
+					<circle class="dot" cx="1392" r="1.8"/>
+					<circle class="dot" cx="1406" r="1.8"/>
+					<circle class="dot" cx="1420" r="1.8"/>
+					<circle class="dot" cx="1434" r="1.8"/>
+					<circle class="dot" cx="1448" r="1.8"/>
+					<circle class="dot" cx="1462" r="1.8"/>
+					<circle class="dot" cx="1476" r="1.8"/>
+					<circle class="dot" cx="1490" r="1.8"/>
+				</g>
+				<g transform="translate(0,440)">
+					<circle class="dot" cx="776" r="1.8"/>
+					<circle class="dot" cx="790" r="1.8"/>
+					<circle class="dot" cx="804" r="1.8"/>
+					<circle class="dot" cx="818" r="1.8"/>
+					<circle class="dot" cx="832" r="1.8"/>
+					<circle class="dot" cx="846" r="1.8"/>
+					<circle class="dot" cx="860" r="1.8"/>
+					<circle class="dot" cx="874" r="1.8"/>
+					<circle class="dot" cx="888" r="1.8"/>
+					<circle class="dot" cx="902" r="1.8"/>
+					<circle class="dot" cx="916" r="1.8"/>
+					<circle class="dot" cx="930" r="1.8"/>
+					<circle class="dot" cx="944" r="1.8"/>
+					<circle class="dot" cx="958" r="1.8"/>
+					<circle class="dot" cx="972" r="1.8"/>
+					<circle class="dot" cx="986" r="1.8"/>
+					<circle class="dot" cx="1e3" r="1.8"/>
+					<circle class="dot" cx="1014" r="1.8"/>
+					<circle class="dot" cx="1028" r="1.8"/>
+					<circle class="dot" cx="1042" r="1.8"/>
+					<circle class="dot" cx="1056" r="1.8"/>
+					<circle class="dot" cx="1070" r="1.8"/>
+					<circle class="dot" cx="1084" r="1.8"/>
+					<circle class="dot" cx="1098" r="1.8"/>
+					<circle class="dot" cx="1112" r="1.8"/>
+					<circle class="dot" cx="1126" r="1.8"/>
+					<circle class="dot" cx="1140" r="1.8"/>
+					<circle class="dot" cx="1154" r="1.8"/>
+					<circle class="dot" cx="1168" r="1.8"/>
+					<circle class="dot" cx="1182" r="1.8"/>
+					<circle class="dot" cx="1196" r="1.8"/>
+					<circle class="dot" cx="1210" r="1.8"/>
+					<circle class="dot" cx="1224" r="1.8"/>
+					<circle class="dot" cx="1238" r="1.8"/>
+					<circle class="dot" cx="1252" r="1.8"/>
+					<circle class="dot" cx="1266" r="1.8"/>
+					<circle class="dot" cx="1280" r="1.8"/>
+					<circle class="dot" cx="1294" r="1.8"/>
+					<circle class="dot" cx="1308" r="1.8"/>
+					<circle class="dot" cx="1322" r="1.8"/>
+					<circle class="dot" cx="1336" r="1.8"/>
+					<circle class="dot" cx="1350" r="1.8"/>
+					<circle class="dot" cx="1364" r="1.8"/>
+					<circle class="dot" cx="1378" r="1.8"/>
+					<circle class="dot" cx="1392" r="1.8"/>
+					<circle class="dot" cx="1406" r="1.8"/>
+					<circle class="dot" cx="1420" r="1.8"/>
+					<circle class="dot" cx="1434" r="1.8"/>
+					<circle class="dot" cx="1448" r="1.8"/>
+					<circle class="dot" cx="1462" r="1.8"/>
+					<circle class="dot" cx="1476" r="1.8"/>
+					<circle class="dot" cx="1490" r="1.8"/>
+				</g>
+				<g transform="translate(0,495)">
+					<circle class="dot" cx="776" r="1.8"/>
+					<circle class="dot" cx="790" r="1.8"/>
+					<circle class="dot" cx="804" r="1.8"/>
+					<circle class="dot" cx="818" r="1.8"/>
+					<circle class="dot" cx="832" r="1.8"/>
+					<circle class="dot" cx="846" r="1.8"/>
+					<circle class="dot" cx="860" r="1.8"/>
+					<circle class="dot" cx="874" r="1.8"/>
+					<circle class="dot" cx="888" r="1.8"/>
+					<circle class="dot" cx="902" r="1.8"/>
+					<circle class="dot" cx="916" r="1.8"/>
+					<circle class="dot" cx="930" r="1.8"/>
+					<circle class="dot" cx="944" r="1.8"/>
+					<circle class="dot" cx="958" r="1.8"/>
+					<circle class="dot" cx="972" r="1.8"/>
+					<circle class="dot" cx="986" r="1.8"/>
+					<circle class="dot" cx="1e3" r="1.8"/>
+					<circle class="dot" cx="1014" r="1.8"/>
+					<circle class="dot" cx="1028" r="1.8"/>
+					<circle class="dot" cx="1042" r="1.8"/>
+					<circle class="dot" cx="1056" r="1.8"/>
+					<circle class="dot" cx="1070" r="1.8"/>
+					<circle class="dot" cx="1084" r="1.8"/>
+					<circle class="dot" cx="1098" r="1.8"/>
+					<circle class="dot" cx="1112" r="1.8"/>
+					<circle class="dot" cx="1126" r="1.8"/>
+					<circle class="dot" cx="1140" r="1.8"/>
+					<circle class="dot" cx="1154" r="1.8"/>
+					<circle class="dot" cx="1168" r="1.8"/>
+					<circle class="dot" cx="1182" r="1.8"/>
+					<circle class="dot" cx="1196" r="1.8"/>
+					<circle class="dot" cx="1210" r="1.8"/>
+					<circle class="dot" cx="1224" r="1.8"/>
+					<circle class="dot" cx="1238" r="1.8"/>
+					<circle class="dot" cx="1252" r="1.8"/>
+					<circle class="dot" cx="1266" r="1.8"/>
+					<circle class="dot" cx="1280" r="1.8"/>
+					<circle class="dot" cx="1294" r="1.8"/>
+					<circle class="dot" cx="1308" r="1.8"/>
+					<circle class="dot" cx="1322" r="1.8"/>
+					<circle class="dot" cx="1336" r="1.8"/>
+					<circle class="dot" cx="1350" r="1.8"/>
+					<circle class="dot" cx="1364" r="1.8"/>
+					<circle class="dot" cx="1378" r="1.8"/>
+					<circle class="dot" cx="1392" r="1.8"/>
+					<circle class="dot" cx="1406" r="1.8"/>
+					<circle class="dot" cx="1420" r="1.8"/>
+					<circle class="dot" cx="1434" r="1.8"/>
+					<circle class="dot" cx="1448" r="1.8"/>
+					<circle class="dot" cx="1462" r="1.8"/>
+					<circle class="dot" cx="1476" r="1.8"/>
+					<circle class="dot" cx="1490" r="1.8"/>
+				</g>
+				<g transform="translate(0,550)">
+					<circle class="dot" cx="776" r="1.8"/>
+					<circle class="dot" cx="790" r="1.8"/>
+					<circle class="dot" cx="804" r="1.8"/>
+					<circle class="dot" cx="818" r="1.8"/>
+					<circle class="dot" cx="832" r="1.8"/>
+					<circle class="dot" cx="846" r="1.8"/>
+					<circle class="dot" cx="860" r="1.8"/>
+					<circle class="dot" cx="874" r="1.8"/>
+					<circle class="dot" cx="888" r="1.8"/>
+					<circle class="dot" cx="902" r="1.8"/>
+					<circle class="dot" cx="916" r="1.8"/>
+					<circle class="dot" cx="930" r="1.8"/>
+					<circle class="dot" cx="944" r="1.8"/>
+					<circle class="dot" cx="958" r="1.8"/>
+					<circle class="dot" cx="972" r="1.8"/>
+					<circle class="dot" cx="986" r="1.8"/>
+					<circle class="dot" cx="1e3" r="1.8"/>
+					<circle class="dot" cx="1014" r="1.8"/>
+					<circle class="dot" cx="1028" r="1.8"/>
+					<circle class="dot" cx="1042" r="1.8"/>
+					<circle class="dot" cx="1056" r="1.8"/>
+					<circle class="dot" cx="1070" r="1.8"/>
+					<circle class="dot" cx="1084" r="1.8"/>
+					<circle class="dot" cx="1098" r="1.8"/>
+					<circle class="dot" cx="1112" r="1.8"/>
+					<circle class="dot" cx="1126" r="1.8"/>
+					<circle class="dot" cx="1140" r="1.8"/>
+					<circle class="dot" cx="1154" r="1.8"/>
+					<circle class="dot" cx="1168" r="1.8"/>
+					<circle class="dot" cx="1182" r="1.8"/>
+					<circle class="dot" cx="1196" r="1.8"/>
+					<circle class="dot" cx="1210" r="1.8"/>
+					<circle class="dot" cx="1224" r="1.8"/>
+					<circle class="dot" cx="1238" r="1.8"/>
+					<circle class="dot" cx="1252" r="1.8"/>
+					<circle class="dot" cx="1266" r="1.8"/>
+					<circle class="dot" cx="1280" r="1.8"/>
+					<circle class="dot" cx="1294" r="1.8"/>
+					<circle class="dot" cx="1308" r="1.8"/>
+					<circle class="dot" cx="1322" r="1.8"/>
+					<circle class="dot" cx="1336" r="1.8"/>
+					<circle class="dot" cx="1350" r="1.8"/>
+					<circle class="dot" cx="1364" r="1.8"/>
+					<circle class="dot" cx="1378" r="1.8"/>
+					<circle class="dot" cx="1392" r="1.8"/>
+					<circle class="dot" cx="1406" r="1.8"/>
+					<circle class="dot" cx="1420" r="1.8"/>
+					<circle class="dot" cx="1434" r="1.8"/>
+					<circle class="dot" cx="1448" r="1.8"/>
+					<circle class="dot" cx="1462" r="1.8"/>
+					<circle class="dot" cx="1476" r="1.8"/>
+					<circle class="dot" cx="1490" r="1.8"/>
+				</g>
+				<g transform="translate(0,605)">
+					<circle class="dot" cx="776" r="1.8"/>
+					<circle class="dot" cx="790" r="1.8"/>
+					<circle class="dot" cx="804" r="1.8"/>
+					<circle class="dot" cx="818" r="1.8"/>
+					<circle class="dot" cx="832" r="1.8"/>
+					<circle class="dot" cx="846" r="1.8"/>
+					<circle class="dot" cx="860" r="1.8"/>
+					<circle class="dot" cx="874" r="1.8"/>
+					<circle class="dot" cx="888" r="1.8"/>
+					<circle class="dot" cx="902" r="1.8"/>
+					<circle class="dot" cx="916" r="1.8"/>
+					<circle class="dot" cx="930" r="1.8"/>
+					<circle class="dot" cx="944" r="1.8"/>
+					<circle class="dot" cx="958" r="1.8"/>
+					<circle class="dot" cx="972" r="1.8"/>
+					<circle class="dot" cx="986" r="1.8"/>
+					<circle class="dot" cx="1e3" r="1.8"/>
+					<circle class="dot" cx="1014" r="1.8"/>
+					<circle class="dot" cx="1028" r="1.8"/>
+					<circle class="dot" cx="1042" r="1.8"/>
+					<circle class="dot" cx="1056" r="1.8"/>
+					<circle class="dot" cx="1070" r="1.8"/>
+					<circle class="dot" cx="1084" r="1.8"/>
+					<circle class="dot" cx="1098" r="1.8"/>
+					<circle class="dot" cx="1112" r="1.8"/>
+					<circle class="dot" cx="1126" r="1.8"/>
+					<circle class="dot" cx="1140" r="1.8"/>
+					<circle class="dot" cx="1154" r="1.8"/>
+					<circle class="dot" cx="1168" r="1.8"/>
+					<circle class="dot" cx="1182" r="1.8"/>
+					<circle class="dot" cx="1196" r="1.8"/>
+					<circle class="dot" cx="1210" r="1.8"/>
+					<circle class="dot" cx="1224" r="1.8"/>
+					<circle class="dot" cx="1238" r="1.8"/>
+					<circle class="dot" cx="1252" r="1.8"/>
+					<circle class="dot" cx="1266" r="1.8"/>
+					<circle class="dot" cx="1280" r="1.8"/>
+					<circle class="dot" cx="1294" r="1.8"/>
+					<circle class="dot" cx="1308" r="1.8"/>
+					<circle class="dot" cx="1322" r="1.8"/>
+					<circle class="dot" cx="1336" r="1.8"/>
+					<circle class="dot" cx="1350" r="1.8"/>
+					<circle class="dot" cx="1364" r="1.8"/>
+					<circle class="dot" cx="1378" r="1.8"/>
+					<circle class="dot" cx="1392" r="1.8"/>
+					<circle class="dot" cx="1406" r="1.8"/>
+					<circle class="dot" cx="1420" r="1.8"/>
+					<circle class="dot" cx="1434" r="1.8"/>
+					<circle class="dot" cx="1448" r="1.8"/>
+					<circle class="dot" cx="1462" r="1.8"/>
+					<circle class="dot" cx="1476" r="1.8"/>
+					<circle class="dot" cx="1490" r="1.8"/>
+				</g>
+				<g transform="translate(0,660)">
+					<circle class="dot" cx="776" r="1.8"/>
+					<circle class="dot" cx="790" r="1.8"/>
+					<circle class="dot" cx="804" r="1.8"/>
+					<circle class="dot" cx="818" r="1.8"/>
+					<circle class="dot" cx="832" r="1.8"/>
+					<circle class="dot" cx="846" r="1.8"/>
+					<circle class="dot" cx="860" r="1.8"/>
+					<circle class="dot" cx="874" r="1.8"/>
+					<circle class="dot" cx="888" r="1.8"/>
+					<circle class="dot" cx="902" r="1.8"/>
+					<circle class="dot" cx="916" r="1.8"/>
+					<circle class="dot" cx="930" r="1.8"/>
+					<circle class="dot" cx="944" r="1.8"/>
+					<circle class="dot" cx="958" r="1.8"/>
+					<circle class="dot" cx="972" r="1.8"/>
+					<circle class="dot" cx="986" r="1.8"/>
+					<circle class="dot" cx="1e3" r="1.8"/>
+					<circle class="dot" cx="1014" r="1.8"/>
+					<circle class="dot" cx="1028" r="1.8"/>
+					<circle class="dot" cx="1042" r="1.8"/>
+					<circle class="dot" cx="1056" r="1.8"/>
+					<circle class="dot" cx="1070" r="1.8"/>
+					<circle class="dot" cx="1084" r="1.8"/>
+					<circle class="dot" cx="1098" r="1.8"/>
+					<circle class="dot" cx="1112" r="1.8"/>
+					<circle class="dot" cx="1126" r="1.8"/>
+					<circle class="dot" cx="1140" r="1.8"/>
+					<circle class="dot" cx="1154" r="1.8"/>
+					<circle class="dot" cx="1168" r="1.8"/>
+					<circle class="dot" cx="1182" r="1.8"/>
+					<circle class="dot" cx="1196" r="1.8"/>
+					<circle class="dot" cx="1210" r="1.8"/>
+					<circle class="dot" cx="1224" r="1.8"/>
+					<circle class="dot" cx="1238" r="1.8"/>
+					<circle class="dot" cx="1252" r="1.8"/>
+					<circle class="dot" cx="1266" r="1.8"/>
+					<circle class="dot" cx="1280" r="1.8"/>
+					<circle class="dot" cx="1294" r="1.8"/>
+					<circle class="dot" cx="1308" r="1.8"/>
+					<circle class="dot" cx="1322" r="1.8"/>
+					<circle class="dot" cx="1336" r="1.8"/>
+					<circle class="dot" cx="1350" r="1.8"/>
+					<circle class="dot" cx="1364" r="1.8"/>
+					<circle class="dot" cx="1378" r="1.8"/>
+					<circle class="dot" cx="1392" r="1.8"/>
+					<circle class="dot" cx="1406" r="1.8"/>
+					<circle class="dot" cx="1420" r="1.8"/>
+					<circle class="dot" cx="1434" r="1.8"/>
+					<circle class="dot" cx="1448" r="1.8"/>
+					<circle class="dot" cx="1462" r="1.8"/>
+					<circle class="dot" cx="1476" r="1.8"/>
+					<circle class="dot" cx="1490" r="1.8"/>
+				</g>
+				<g transform="translate(0,715)">
+					<circle class="dot" cx="776" r="1.8"/>
+					<circle class="dot" cx="790" r="1.8"/>
+					<circle class="dot" cx="804" r="1.8"/>
+					<circle class="dot" cx="818" r="1.8"/>
+					<circle class="dot" cx="832" r="1.8"/>
+					<circle class="dot" cx="846" r="1.8"/>
+					<circle class="dot" cx="860" r="1.8"/>
+					<circle class="dot" cx="874" r="1.8"/>
+					<circle class="dot" cx="888" r="1.8"/>
+					<circle class="dot" cx="902" r="1.8"/>
+					<circle class="dot" cx="916" r="1.8"/>
+					<circle class="dot" cx="930" r="1.8"/>
+					<circle class="dot" cx="944" r="1.8"/>
+					<circle class="dot" cx="958" r="1.8"/>
+					<circle class="dot" cx="972" r="1.8"/>
+					<circle class="dot" cx="986" r="1.8"/>
+					<circle class="dot" cx="1e3" r="1.8"/>
+					<circle class="dot" cx="1014" r="1.8"/>
+					<circle class="dot" cx="1028" r="1.8"/>
+					<circle class="dot" cx="1042" r="1.8"/>
+					<circle class="dot" cx="1056" r="1.8"/>
+					<circle class="dot" cx="1070" r="1.8"/>
+					<circle class="dot" cx="1084" r="1.8"/>
+					<circle class="dot" cx="1098" r="1.8"/>
+					<circle class="dot" cx="1112" r="1.8"/>
+					<circle class="dot" cx="1126" r="1.8"/>
+					<circle class="dot" cx="1140" r="1.8"/>
+					<circle class="dot" cx="1154" r="1.8"/>
+					<circle class="dot" cx="1168" r="1.8"/>
+					<circle class="dot" cx="1182" r="1.8"/>
+					<circle class="dot" cx="1196" r="1.8"/>
+					<circle class="dot" cx="1210" r="1.8"/>
+					<circle class="dot" cx="1224" r="1.8"/>
+					<circle class="dot" cx="1238" r="1.8"/>
+					<circle class="dot" cx="1252" r="1.8"/>
+					<circle class="dot" cx="1266" r="1.8"/>
+					<circle class="dot" cx="1280" r="1.8"/>
+					<circle class="dot" cx="1294" r="1.8"/>
+					<circle class="dot" cx="1308" r="1.8"/>
+					<circle class="dot" cx="1322" r="1.8"/>
+					<circle class="dot" cx="1336" r="1.8"/>
+					<circle class="dot" cx="1350" r="1.8"/>
+					<circle class="dot" cx="1364" r="1.8"/>
+					<circle class="dot" cx="1378" r="1.8"/>
+					<circle class="dot" cx="1392" r="1.8"/>
+					<circle class="dot" cx="1406" r="1.8"/>
+					<circle class="dot" cx="1420" r="1.8"/>
+					<circle class="dot" cx="1434" r="1.8"/>
+					<circle class="dot" cx="1448" r="1.8"/>
+					<circle class="dot" cx="1462" r="1.8"/>
+					<circle class="dot" cx="1476" r="1.8"/>
+					<circle class="dot" cx="1490" r="1.8"/>
+				</g>
+				<g transform="translate(0,770)">
+					<circle class="dot" cx="776" r="1.8"/>
+					<circle class="dot" cx="790" r="1.8"/>
+					<circle class="dot" cx="804" r="1.8"/>
+					<circle class="dot" cx="818" r="1.8"/>
+					<circle class="dot" cx="832" r="1.8"/>
+					<circle class="dot" cx="846" r="1.8"/>
+					<circle class="dot" cx="860" r="1.8"/>
+					<circle class="dot" cx="874" r="1.8"/>
+					<circle class="dot" cx="888" r="1.8"/>
+					<circle class="dot" cx="902" r="1.8"/>
+					<circle class="dot" cx="916" r="1.8"/>
+					<circle class="dot" cx="930" r="1.8"/>
+					<circle class="dot" cx="944" r="1.8"/>
+					<circle class="dot" cx="958" r="1.8"/>
+					<circle class="dot" cx="972" r="1.8"/>
+					<circle class="dot" cx="986" r="1.8"/>
+					<circle class="dot" cx="1e3" r="1.8"/>
+					<circle class="dot" cx="1014" r="1.8"/>
+					<circle class="dot" cx="1028" r="1.8"/>
+					<circle class="dot" cx="1042" r="1.8"/>
+					<circle class="dot" cx="1056" r="1.8"/>
+					<circle class="dot" cx="1070" r="1.8"/>
+					<circle class="dot" cx="1084" r="1.8"/>
+					<circle class="dot" cx="1098" r="1.8"/>
+					<circle class="dot" cx="1112" r="1.8"/>
+					<circle class="dot" cx="1126" r="1.8"/>
+					<circle class="dot" cx="1140" r="1.8"/>
+					<circle class="dot" cx="1154" r="1.8"/>
+					<circle class="dot" cx="1168" r="1.8"/>
+					<circle class="dot" cx="1182" r="1.8"/>
+					<circle class="dot" cx="1196" r="1.8"/>
+					<circle class="dot" cx="1210" r="1.8"/>
+					<circle class="dot" cx="1224" r="1.8"/>
+					<circle class="dot" cx="1238" r="1.8"/>
+					<circle class="dot" cx="1252" r="1.8"/>
+					<circle class="dot" cx="1266" r="1.8"/>
+					<circle class="dot" cx="1280" r="1.8"/>
+					<circle class="dot" cx="1294" r="1.8"/>
+					<circle class="dot" cx="1308" r="1.8"/>
+					<circle class="dot" cx="1322" r="1.8"/>
+					<circle class="dot" cx="1336" r="1.8"/>
+					<circle class="dot" cx="1350" r="1.8"/>
+					<circle class="dot" cx="1364" r="1.8"/>
+					<circle class="dot" cx="1378" r="1.8"/>
+					<circle class="dot" cx="1392" r="1.8"/>
+					<circle class="dot" cx="1406" r="1.8"/>
+					<circle class="dot" cx="1420" r="1.8"/>
+					<circle class="dot" cx="1434" r="1.8"/>
+					<circle class="dot" cx="1448" r="1.8"/>
+					<circle class="dot" cx="1462" r="1.8"/>
+					<circle class="dot" cx="1476" r="1.8"/>
+					<circle class="dot" cx="1490" r="1.8"/>
+				</g>
+				<g transform="translate(0,825)">
+					<circle class="dot" cx="776" r="1.8"/>
+					<circle class="dot" cx="790" r="1.8"/>
+					<circle class="dot" cx="804" r="1.8"/>
+					<circle class="dot" cx="818" r="1.8"/>
+					<circle class="dot" cx="832" r="1.8"/>
+					<circle class="dot" cx="846" r="1.8"/>
+					<circle class="dot" cx="860" r="1.8"/>
+					<circle class="dot" cx="874" r="1.8"/>
+					<circle class="dot" cx="888" r="1.8"/>
+					<circle class="dot" cx="902" r="1.8"/>
+					<circle class="dot" cx="916" r="1.8"/>
+					<circle class="dot" cx="930" r="1.8"/>
+					<circle class="dot" cx="944" r="1.8"/>
+					<circle class="dot" cx="958" r="1.8"/>
+					<circle class="dot" cx="972" r="1.8"/>
+					<circle class="dot" cx="986" r="1.8"/>
+					<circle class="dot" cx="1e3" r="1.8"/>
+					<circle class="dot" cx="1014" r="1.8"/>
+					<circle class="dot" cx="1028" r="1.8"/>
+					<circle class="dot" cx="1042" r="1.8"/>
+					<circle class="dot" cx="1056" r="1.8"/>
+					<circle class="dot" cx="1070" r="1.8"/>
+					<circle class="dot" cx="1084" r="1.8"/>
+					<circle class="dot" cx="1098" r="1.8"/>
+					<circle class="dot" cx="1112" r="1.8"/>
+					<circle class="dot" cx="1126" r="1.8"/>
+					<circle class="dot" cx="1140" r="1.8"/>
+					<circle class="dot" cx="1154" r="1.8"/>
+					<circle class="dot" cx="1168" r="1.8"/>
+					<circle class="dot" cx="1182" r="1.8"/>
+					<circle class="dot" cx="1196" r="1.8"/>
+					<circle class="dot" cx="1210" r="1.8"/>
+					<circle class="dot" cx="1224" r="1.8"/>
+					<circle class="dot" cx="1238" r="1.8"/>
+					<circle class="dot" cx="1252" r="1.8"/>
+					<circle class="dot" cx="1266" r="1.8"/>
+					<circle class="dot" cx="1280" r="1.8"/>
+					<circle class="dot" cx="1294" r="1.8"/>
+					<circle class="dot" cx="1308" r="1.8"/>
+					<circle class="dot" cx="1322" r="1.8"/>
+					<circle class="dot" cx="1336" r="1.8"/>
+					<circle class="dot" cx="1350" r="1.8"/>
+					<circle class="dot" cx="1364" r="1.8"/>
+					<circle class="dot" cx="1378" r="1.8"/>
+					<circle class="dot" cx="1392" r="1.8"/>
+					<circle class="dot" cx="1406" r="1.8"/>
+					<circle class="dot" cx="1420" r="1.8"/>
+					<circle class="dot" cx="1434" r="1.8"/>
+					<circle class="dot" cx="1448" r="1.8"/>
+					<circle class="dot" cx="1462" r="1.8"/>
+					<circle class="dot" cx="1476" r="1.8"/>
+					<circle class="dot" cx="1490" r="1.8"/>
+				</g>
+				<g transform="translate(0,880)">
+					<circle class="dot" cx="776" r="1.8"/>
+					<circle class="dot" cx="790" r="1.8"/>
+					<circle class="dot" cx="804" r="1.8"/>
+					<circle class="dot" cx="818" r="1.8"/>
+					<circle class="dot" cx="832" r="1.8"/>
+					<circle class="dot" cx="846" r="1.8"/>
+					<circle class="dot" cx="860" r="1.8"/>
+					<circle class="dot" cx="874" r="1.8"/>
+					<circle class="dot" cx="888" r="1.8"/>
+					<circle class="dot" cx="902" r="1.8"/>
+					<circle class="dot" cx="916" r="1.8"/>
+					<circle class="dot" cx="930" r="1.8"/>
+					<circle class="dot" cx="944" r="1.8"/>
+					<circle class="dot" cx="958" r="1.8"/>
+					<circle class="dot" cx="972" r="1.8"/>
+					<circle class="dot" cx="986" r="1.8"/>
+					<circle class="dot" cx="1e3" r="1.8"/>
+					<circle class="dot" cx="1014" r="1.8"/>
+					<circle class="dot" cx="1028" r="1.8"/>
+					<circle class="dot" cx="1042" r="1.8"/>
+					<circle class="dot" cx="1056" r="1.8"/>
+					<circle class="dot" cx="1070" r="1.8"/>
+					<circle class="dot" cx="1084" r="1.8"/>
+					<circle class="dot" cx="1098" r="1.8"/>
+					<circle class="dot" cx="1112" r="1.8"/>
+					<circle class="dot" cx="1126" r="1.8"/>
+					<circle class="dot" cx="1140" r="1.8"/>
+					<circle class="dot" cx="1154" r="1.8"/>
+					<circle class="dot" cx="1168" r="1.8"/>
+					<circle class="dot" cx="1182" r="1.8"/>
+					<circle class="dot" cx="1196" r="1.8"/>
+					<circle class="dot" cx="1210" r="1.8"/>
+					<circle class="dot" cx="1224" r="1.8"/>
+					<circle class="dot" cx="1238" r="1.8"/>
+					<circle class="dot" cx="1252" r="1.8"/>
+					<circle class="dot" cx="1266" r="1.8"/>
+					<circle class="dot" cx="1280" r="1.8"/>
+					<circle class="dot" cx="1294" r="1.8"/>
+					<circle class="dot" cx="1308" r="1.8"/>
+					<circle class="dot" cx="1322" r="1.8"/>
+					<circle class="dot" cx="1336" r="1.8"/>
+					<circle class="dot" cx="1350" r="1.8"/>
+					<circle class="dot" cx="1364" r="1.8"/>
+					<circle class="dot" cx="1378" r="1.8"/>
+					<circle class="dot" cx="1392" r="1.8"/>
+					<circle class="dot" cx="1406" r="1.8"/>
+					<circle class="dot" cx="1420" r="1.8"/>
+					<circle class="dot" cx="1434" r="1.8"/>
+					<circle class="dot" cx="1448" r="1.8"/>
+					<circle class="dot" cx="1462" r="1.8"/>
+					<circle class="dot" cx="1476" r="1.8"/>
+					<circle class="dot" cx="1490" r="1.8"/>
+				</g>
+			</g>
+		</g>
+	</g>
 </svg>
