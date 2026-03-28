@@ -64,7 +64,7 @@ def generate_security_suffix(length=12):
     characters = string.ascii_letters + string.digits
     return ''.join(random.choice(characters) for _ in range(length))
 
-def main(address_not:str,note:str , use_passphrase:bool):
+def main(note: str, use_passphrase: bool):
     # Create a Web3 instance
     web3 = Web3()
     web3.eth.account.enable_unaudited_hdwallet_features()
@@ -85,12 +85,11 @@ def main(address_not:str,note:str , use_passphrase:bool):
     svg_file_path = './file.svg'
 
     name = note.replace(' ', '_').lower().replace('!', '').replace('?', '').replace(',', '').replace('.', '')
-    pdf_file_path = f"./{address_not}_"+ name+ '.pdf'
+    pdf_file_path = f"./{name}.pdf"
 
     words = mnemonic.split()
 
     replacements = {
-        '##ADDRESS_NOT': address_not,
         '##NOTE_BOX': note,
         '##ADDRESS_BOX': account.address,
         '#T1#' : words[0],
@@ -153,9 +152,10 @@ def main(address_not:str,note:str , use_passphrase:bool):
 
 if __name__ == '__main__':
     note = input("Enter the note: ")
-    address_not = input("Enter the address_not: ")
-    passphrase_input = input("Use BIP39 Passphrase? (yes/no): ").strip().lower()
+    passphrase_input = input("Use BIP39 Passphrase? (Y/n): ").strip().lower()
+    if not passphrase_input:
+        passphrase_input = 'yes'
     use_passphrase = (passphrase_input == 'yes') or (passphrase_input == 'y')
 
 
-    main(address_not, note, use_passphrase)
+    main(note, use_passphrase)
