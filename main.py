@@ -27,7 +27,7 @@ def replace_content_in_file(file_path, replacements):
 
 
 def text_to_qr_base64(text):
-    qr = QRCode(version=1, box_size=10, border=5)
+    qr = QRCode(version=1, box_size=10, border=1)
     qr.add_data(text)
     qr.make(fit=True)
     img = qr.make_image(fill_color="black", back_color="white")
@@ -126,7 +126,11 @@ def main(address_not:str,note:str , use_passphrase:bool):
     # Write the modified content back to the file
     with open('file.svg', 'w') as file:
         file.write(modified_content)
-    cairosvg.svg2pdf(url=svg_file_path, write_to=pdf_file_path, unsafe=True)
+
+    # Export to A5 PDF (210mm x 148mm landscape) by setting A5 size in points (72 DPI units)
+    a5_width_pt = 595  # 210mm in points at 72 DPI
+    a5_height_pt = 420  # 148mm in points at 72 DPI
+    cairosvg.svg2pdf(url=svg_file_path, write_to=pdf_file_path, unsafe=True, output_width=a5_width_pt, output_height=a5_height_pt)
 
     reader = PdfReader(pdf_file_path)
     writer = PdfWriter()
