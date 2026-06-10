@@ -74,7 +74,7 @@ def main(note: str, use_passphrase: bool):
 
     name = note.replace(' ', '_').lower().replace('!', '').replace('?', '').replace(',', '').replace('.', '')
     pdf_file_path = f"./{name}.pdf"
-    blank_password_pdf_file_path = f"./{name}_blank_password.pdf"
+    blank_password_pdf_file_path = f"./{name}_wallet.pdf"
 
     words = mnemonic.split()
 
