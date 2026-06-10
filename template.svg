@@ -182,5 +182,6 @@
 				<line class="thin" x1="806" x2="1468" y1="875" y2="875"/>
 			</g>
 		</g>
+		<text x="1015.9555" y="166.74954" fill="#800000" font-family="Arial, sans-serif" font-size="20px" stroke-linecap="round" stroke-miterlimit="0" stroke-width="3"  style="line-height:0px" xml:space="preserve"><tspan x="1015.9555" y="166.74954">#PASSWORD#</tspan></text>
 	</g>
 </svg>

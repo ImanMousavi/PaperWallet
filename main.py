@@ -38,6 +38,18 @@ def text_to_qr_base64(text):
     return img_str
 
 
+def render_pdf(template_file_path, svg_file_path, pdf_file_path, replacements):
+    modified_content = replace_content_in_file(template_file_path, replacements)
+
+    with open(svg_file_path, 'w') as file:
+        file.write(modified_content)
+
+    # Export to A5 PDF (210mm x 148mm landscape) by setting A5 size in points (72 DPI units)
+    a5_width_pt = 595  # 210mm in points at 72 DPI
+    a5_height_pt = 420  # 148mm in points at 72 DPI
+    cairosvg.svg2pdf(url=svg_file_path, write_to=pdf_file_path, unsafe=True, output_width=a5_width_pt, output_height=a5_height_pt)
+
+
 def password_generator(param):
     uppercase_loc = randint(1, 4)
     symbol_loc = randint(5, 6)
@@ -86,6 +98,7 @@ def main(note: str, use_passphrase: bool):
 
     name = note.replace(' ', '_').lower().replace('!', '').replace('?', '').replace(',', '').replace('.', '')
     pdf_file_path = f"./{name}.pdf"
+    blank_password_pdf_file_path = f"./{name}_blank_password.pdf"
 
     words = mnemonic.split()
 
@@ -116,20 +129,15 @@ def main(note: str, use_passphrase: bool):
         '#T22#' : words[21],
         '#T23#' : words[22],
         '#T24#' : words[23],
-        '#qr_code_base64#' :qr_code_base64
+        '#qr_code_base64#' :qr_code_base64,
+        '#PASSWORD#': security_suffix
     }
 
-    # Replace content in the SVG file
-    modified_content = replace_content_in_file(template_file_path, replacements)
+    render_pdf(template_file_path, svg_file_path, pdf_file_path, replacements)
 
-    # Write the modified content back to the file
-    with open('file.svg', 'w') as file:
-        file.write(modified_content)
-
-    # Export to A5 PDF (210mm x 148mm landscape) by setting A5 size in points (72 DPI units)
-    a5_width_pt = 595  # 210mm in points at 72 DPI
-    a5_height_pt = 420  # 148mm in points at 72 DPI
-    cairosvg.svg2pdf(url=svg_file_path, write_to=pdf_file_path, unsafe=True, output_width=a5_width_pt, output_height=a5_height_pt)
+    blank_password_replacements = replacements.copy()
+    blank_password_replacements['#PASSWORD#'] = ''
+    render_pdf(template_file_path, svg_file_path, blank_password_pdf_file_path, blank_password_replacements)
 
     reader = PdfReader(pdf_file_path)
     writer = PdfWriter()
