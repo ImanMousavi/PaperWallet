@@ -1,14 +1,12 @@
-# pip install cairocffi pycairo PyPDF2
+# pip install cairocffi pycairo
 # brew install cairo  && brew install pango or sudo apt-get install libcairo2 libcairo2-dev
 
 import os
 import random
 import string
 from pprint import pprint
-from random import randint, choice
 
 import cairosvg
-from PyPDF2 import PdfReader, PdfWriter
 from eth_account import Account
 from qrcode.main import QRCode
 from web3 import Web3
@@ -50,28 +48,6 @@ def render_pdf(template_file_path, svg_file_path, pdf_file_path, replacements):
     cairosvg.svg2pdf(url=svg_file_path, write_to=pdf_file_path, unsafe=True, output_width=a5_width_pt, output_height=a5_height_pt)
 
 
-def password_generator(param):
-    uppercase_loc = randint(1, 4)
-    symbol_loc = randint(5, 6)
-    lowercase_loc = randint(7, 12)
-    _password = ""
-
-    pool = string.ascii_letters + string.punctuation
-
-    for i in range(param):
-        if i == uppercase_loc:
-            _password += choice(string.ascii_uppercase)
-
-        elif i == lowercase_loc:
-            _password += choice(string.ascii_lowercase)
-
-        elif i == symbol_loc:
-            _password += choice(string.punctuation)
-
-        else:
-            _password += choice(pool)
-
-    return _password
 def generate_security_suffix(length=12):
     characters = string.ascii_letters + string.digits
     return ''.join(random.choice(characters) for _ in range(length))
@@ -139,21 +115,6 @@ def main(note: str, use_passphrase: bool):
     blank_password_replacements['#PASSWORD#'] = ''
     render_pdf(template_file_path, svg_file_path, blank_password_pdf_file_path, blank_password_replacements)
 
-    reader = PdfReader(pdf_file_path)
-    writer = PdfWriter()
-
-    for page in reader.pages:
-        writer.add_page(page)
-
-
-    if not use_passphrase:
-        encrypt_pdf_file = 'encrypt_' + name+ '.pdf'
-        password = password_generator(8)
-        writer.encrypt(password)
-
-        with open(encrypt_pdf_file, 'wb') as f:
-            writer.write(f)
-        pprint(f"PDF file has been generated and saved to {pdf_file_path} with  password: {password}")
     os.remove(svg_file_path)
     pprint(f"Passphrase: {security_suffix}")
 
